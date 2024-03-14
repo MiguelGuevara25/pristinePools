@@ -1,4 +1,5 @@
 import AboutSeven from "@/components/AboutSection/AboutSeven";
+import CallToSection from "@/components/CallToSection/CallToSection";
 import ContactInfos from "@/components/ContactInfos/ContactInfos";
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
@@ -19,6 +20,7 @@ const Home = () => {
       <AboutSeven />
       <ServicesSectionOne />
       <SponsorsSection />
+      <CallToSection />
       <ContactInfos />
       <FooterFour />
     </Layout>

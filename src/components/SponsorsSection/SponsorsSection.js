@@ -1,4 +1,5 @@
 import sponsors from "@/data/sponsorsSection";
+import useActive from "@/hooks/useActive";
 import dynamic from "next/dynamic";
 import React, { useRef } from "react";
 import { Image } from "react-bootstrap";
@@ -41,9 +42,21 @@ const settings = {
 
 const SponsorsSection = ({ className = "" }) => {
   const listRef = useRef(null);
+  const ref = useActive("#products");
 
   return (
-    <section className={`sponsors-section ${className}`}>
+    <section
+      ref={ref}
+      className={`sponsors-section ${className}`}
+      id="products"
+    >
+      <div className="sec-title centered">
+        <h2>
+          Our Products
+          <span className="dot">.</span>
+        </h2>
+      </div>
+
       <div className="sponsors-outer">
         <div className="auto-container">
           <div className="sponsors-carousel">

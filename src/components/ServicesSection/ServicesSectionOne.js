@@ -3,12 +3,15 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 import SingleServiceOne from "./SingleServiceOne";
+import useActive from "@/hooks/useActive";
 
 const { title, text, services } = servicesSectionOne;
 
 const ServicesSectionOne = () => {
+  const ref = useActive("#services");
+
   return (
-    <section className="services-section">
+    <section ref={ref} className="services-section" id="services">
       <div className="auto-container">
         <Row className="clearfix">
           <Col xl={6} lg={12} md={12} sm={12} className="title-block">

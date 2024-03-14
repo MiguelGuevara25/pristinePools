@@ -60,7 +60,7 @@ const navItems = [
   {
     id: 2,
     name: "Services",
-    href: "/about",
+    href: "#services",
     // subNavItems: [
     //   { id: 1, name: "About Two", href: "/about-2" },
     //   { id: 2, name: "About Me", href: "/about-me" },
@@ -84,7 +84,7 @@ const navItems = [
   {
     id: 3,
     name: "Products",
-    href: "",
+    href: "#products",
     // subNavItems: [
     //   { id: 1, name: "Our Pricing", href: "/pricing" },
     //   { id: 2, name: "Pricing 02", href: "/pricing-2", isNew: true },
@@ -113,13 +113,13 @@ const navItems = [
     name: "Pool",
     href: "/services",
     subNavItems: [
-      { id: 1, name: "Opening", href: "/services" },
-      { id: 2, name: "Closing", href: "/services-2" },
-      { id: 3, name: "Maintenance", href: "/web-development" },
-      { id: 4, name: "Up Grade", href: "/graphic-designing" },
-      { id: 5, name: "Liners", href: "/digital-marketing" },
-      { id: 6, name: "Heaters", href: "/seo" },
-      { id: 7, name: "Pool Slides", href: "/app-development" },
+      { id: 1, name: "Opening", href: "/pool/opening" },
+      { id: 2, name: "Closing", href: "/pool/closing" },
+      { id: 3, name: "Maintenance", href: "/pool/maintenance" },
+      { id: 4, name: "Up Grade", href: "/pool/upgrade" },
+      { id: 5, name: "Liners", href: "/pool/liners" },
+      { id: 6, name: "Heaters", href: "/pool/heaters" },
+      { id: 7, name: "Pool Slides", href: "/pool/pool-slides" },
     ],
   },
   {
