@@ -26,15 +26,15 @@ const AboutSeven = () => {
                 <h2 className="sec-title-six__title">{title}</h2>
               </div>
               <p className="about-seven__summery">{text}</p>
-              <h3 className="about-seven__title">{title2}</h3>
-              <ul className="about-seven__list list-unstyled">
+              {/* <h3 className="about-seven__title">{title2}</h3> */}
+              {/* <ul className="about-seven__list list-unstyled">
                 {lists.map((list, i) => (
                   <li key={i}>
                     <i className="flaticon-checked"></i>
                     {list}
                   </li>
                 ))}
-              </ul>
+              </ul> */}
               <Link href="/about">
                 <a className="about-seven__btn thm-btn__six">Discover More</a>
               </Link>

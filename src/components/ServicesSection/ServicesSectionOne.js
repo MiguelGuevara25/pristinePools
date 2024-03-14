@@ -16,7 +16,6 @@ const ServicesSectionOne = () => {
               <div className="sec-title">
                 <h2>
                   <TextSplit text={title} />
-                  <span className="dot">.</span>
                 </h2>
                 <div className="lower-text">{text}</div>
               </div>

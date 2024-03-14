@@ -2,21 +2,27 @@ export const sliderSix = [
   {
     id: 1,
     bg: "photoPool1.jpg",
-    text: "Welcome to best linoor business agency",
-    title: "meet the corporate \n business agency",
   },
 
   {
     id: 2,
-    bg: "photoPool2.jpg",
-    text: "Welcome to best linoor business agency",
-    title: "meet the corporate \n business agency",
+    bg: "photoPool5.webp",
   },
 
   {
     id: 3,
+    bg: "photoPool2.jpg",
+  },
+
+  {
+    id: 4,
+    bg: "photoPool4.jpg",
+  },
+
+  {
+    id: 5,
     bg: "photoPool3.jpg",
-    text: "Welcome to best linoor business agency",
+    text: "Welcome",
     title: "meet the corporate \n business agency",
   },
 ];

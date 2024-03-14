@@ -5,7 +5,7 @@ import image12 from "@/images/update-01-10-2021/resources/about-10-1-1.jpg";
 import image11 from "@/images/update-01-10-2021/resources/about-11-1-3.jpg";
 import image10 from "@/images/update-01-10-2021/resources/about-eight-1-1.png";
 import image9 from "@/images/update-01-10-2021/resources/about-nine-1-1.png";
-import image6 from "@/images/update-01-10-2021/resources/about-seven-1-1.jpg";
+import image6 from "@/images/update-01-10-2021/resources/photoMain1.png";
 import image7 from "@/images/update-01-10-2021/resources/about-seven-1-2.jpg";
 import image8 from "@/images/update-01-10-2021/resources/about-six-1-1.jpg";
 import image4 from "@/images/update-1-12-2020/resources/about-1-1.jpg";
@@ -55,10 +55,10 @@ export const aboutSectionThree = {
 };
 
 export const aboutSeven = {
-  images: [image6, image7],
-  tagline: "About Company",
-  title: "We provide the best business services",
-  text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, simply free text by injected humour, or randomised.",
+  images: [image6],
+  tagline: "Welcome",
+  title: "Providing Top Quality Products & Services",
+  text: "For over 20 years Pristine Pool & Spa has been servicing swimming pools all over Long Island offering customers high-quality service and products at prices no other pool companies can match. We cover openings and closings,  weekly and biweekly maintenance, liner replacements, heater installations, leak detection, service, repair and more!",
   title2: "Linoor is the largest digital marketing agency.",
   lists: [
     "We’re professional and certified designers",

@@ -88,7 +88,7 @@
 :root {
   --thm-font: "Teko", sans-serif;
   --thm-b-font: "Rubik", sans-serif;
-  --thm-base: #005098;
+  --thm-base: #0098D8;
   --thm-base-rgb: 255, 170, 23;
   --thm-black: #222429;
   --thm-text: #686a6f;
@@ -619,7 +619,7 @@ img {
   position: relative;
   display: inline-block;
   max-width: 100%;
-  max-height: 34px;
+  max-height: 40px;
   z-index: 1;
 }
 
@@ -692,7 +692,7 @@ img {
   padding: 40px 0px;
   padding-right: 50px;
   margin-right: 50px;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  /* border-right: 1px solid rgba(255, 255, 255, 0.1); */
 }
 
 .main-header .other-links .search-btn button {

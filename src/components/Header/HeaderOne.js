@@ -88,7 +88,7 @@ const HeaderOne = ({
             }
           >
             <div className="logo-box">
-              <div className="logo">
+              <div className="logo" >
                 <Link href="/">
                   <a title={title}>
                     <Image
@@ -134,7 +134,7 @@ const HeaderOne = ({
                 <div className="cart-btn">
                   <Link href="/cart">
                     <a className="theme-btn cart-toggler">
-                      <span className="flaticon-shopping-cart"></span>
+                      {/* <span className="flaticon-shopping-cart"></span> */}
                     </a>
                   </Link>
                 </div>
@@ -144,7 +144,7 @@ const HeaderOne = ({
                     type="button"
                     className="theme-btn search-toggler"
                   >
-                    <span className="flaticon-loupe"></span>
+                    {/* <span className="flaticon-loupe"></span> */}
                   </button>
                 </div>
                 <div className="link-box">
@@ -154,7 +154,7 @@ const HeaderOne = ({
                       href={`tel:${phone.split(" ").join("")}`}
                     >
                       <span className="icon"></span>
-                      <span className="sub-text">Call Anytime</span>
+                      <span className="sub-text">Call Today</span>
                       <span className="number">{phone}</span>
                     </a>
                   </div>

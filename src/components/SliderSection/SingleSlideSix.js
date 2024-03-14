@@ -19,10 +19,10 @@ const SingleSlideSix = ({ slide = {} }) => {
       <div className="auto-container">
         <div className="slider-six__content">
           <p className="slider-six__text">
-            <span>{text}</span>
+            <span>Welcome</span>
           </p>
           <h2 className="slider-six__title">
-            <TextSplit text={title} />
+            <TextSplit text={`Providing Top Quality \n Products & Services`} />
           </h2>
           <a href="#" className="slider-six__btn thm-btn__six">
             Discover More
