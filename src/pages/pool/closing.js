@@ -5,6 +5,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import FooterFour from "@/components/MainFooter/FooterFour";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
+import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 
 
 const PageClosing = () => {
@@ -14,6 +15,7 @@ const PageClosing = () => {
       <MobileMenu />
       <SearchPopup />
       <PageBanner title="Closing" page="About" />
+      <WeWorkSection />
       <ContactInfos />
       <FooterFour />
     </Layout>
