@@ -14,7 +14,7 @@ const PageClosing = () => {
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Closing" page="About" />
+      <PageBanner title="Closing" />
       <WeWorkSection />
       <ContactInfos />
       <FooterFour />

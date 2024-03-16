@@ -8843,7 +8843,7 @@ img.lazy-image.loaded {
 
 /* feature six */
 .feature-six {
-  background-color: #f4f5f8;
+  /* background-color: #f4f5f8; */
 }
 
 .feature-six__image {
@@ -8859,8 +8859,8 @@ img.lazy-image.loaded {
 
 .feature-six__image img {
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
 }
 
 @media (min-width: 1200px) {
@@ -8895,7 +8895,7 @@ img.lazy-image.loaded {
 
 @media (min-width: 1200px) {
   .feature-six__content {
-    padding-left: 60px;
+    padding-left: 36px;
   }
 }
 
@@ -8923,7 +8923,7 @@ img.lazy-image.loaded {
 
 .feature-six__content__text {
   font-size: 16px;
-  line-height: 34px;
+  line-height: 2;
   color: var(--thm-text);
   font-family: var(--thm-b-font);
   margin-bottom: 20px;

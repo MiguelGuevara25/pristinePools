@@ -1,6 +1,6 @@
 import bg from "@/images/background/image-3.jpg";
 import image from "@/images/resource/featured-image-13.jpg";
-import image2 from "@/images/update-26-02-2021/resources/feature-2-1.jpg";
+import image2 from "@/images/update-26-02-2021/resources/photoMaintenance.png";
 import image3 from "@/images/update-26-02-2021/resources/feature-3-1.jpg";
 
 const featuresSection = {
@@ -52,14 +52,16 @@ export const featuresSectionTwo = {
 
 export const featureSix = {
   image: image2,
-  imageCaption: "Total design freedom \n for everyone",
-  title: "Linoor place a very strong impact",
-  text: "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form injected humour, or randomised words.",
+  imageCaption: "Maintenance\nPlans",
+  title: "Maintenance Programs",
+  text: "Just sit back, relax and let us take care of your pool . We offer a number of packages to keep your pool running properly throughout the season so find the one that works for you. Whether it is weekly, biweekly or even monthly service, we are here to make owning a pool as stress free as possible. Give us a call today and we will be happy to go over what service plan would work best for you.",
   items: [
-    "Self-contained, state-of-the-art time clock",
-    "Scalability of up to 500 employees per time clock",
-    "The ability to connect up to 32 time clocks",
-    "Employee self-enrollment",
+    "Professional pool  cleaning with our equipment",
+    "Skim debris off pool surface",
+    "Clean out skimmers and pump basket",
+    "Backwash filter system",
+    "Test water chemistry and add required chemicals if necessary",
+    "Check system for proper filtration",
   ],
 };
 

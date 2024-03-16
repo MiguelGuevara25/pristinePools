@@ -28,7 +28,7 @@ const ProcessOne = () => {
                 </div>
                 <p className="process-one__summery">{text}</p>
                 <ul className="list-unstyled process-one__list">
-                  {lists.map((text, i) => (
+                  {lists?.map((text, i) => (
                     <li key={i}>
                       <i className="flaticon-check"></i>
                       {text}
