@@ -1,3 +1,4 @@
+import AboutTen from "@/components/AboutSection/AboutTen";
 import PageBanner from "@/components/BannerSection/PageBanner";
 import ContactInfos from "@/components/ContactInfos/ContactInfos";
 import HeaderOne from "@/components/Header/HeaderOne";
@@ -12,7 +13,12 @@ const PageMaintenance = () => {
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Maintenance" page="About" />
+      <PageBanner title="Maintenance" />
+
+      <div className="my-5">
+        <AboutTen />
+      </div>
+
       <ContactInfos />
       <FooterFour />
     </Layout>

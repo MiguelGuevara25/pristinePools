@@ -18,14 +18,14 @@ const AboutTen = () => {
             <div className="my-auto">
               <div className="about-ten__content">
                 <div className="sec-title-eight text-start">
-                  <p className="sec-title-eight__text">{tagline}</p>
+                  {/* <p className="sec-title-eight__text">{tagline}</p> */}
                   <h2 className="sec-title-eight__title">{title}</h2>
                 </div>
                 <p className="about-ten__text">{text}</p>
                 {boxes.map(({ id, text, title }) => (
                   <div key={id} className="about-ten__box">
                     <h3 className="about-ten__box__title">{title}</h3>
-                    <p className="about-ten__box__text">{text}</p>
+                    {/* <p className="about-ten__box__text">{text}</p> */}
                   </div>
                 ))}
               </div>

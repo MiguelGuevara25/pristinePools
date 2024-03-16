@@ -1,7 +1,7 @@
 import image1 from "@/images/resource/featured-image-1.jpg";
 import image3 from "@/images/resource/featured-image-15.jpg";
 import image2 from "@/images/resource/featured-image-2.jpg";
-import image12 from "@/images/update-01-10-2021/resources/about-10-1-1.jpg";
+import image12 from "@/images/update-01-10-2021/resources/photoMaintenance.png";
 import image11 from "@/images/update-01-10-2021/resources/about-11-1-3.jpg";
 import image10 from "@/images/update-01-10-2021/resources/about-eight-1-1.png";
 import image9 from "@/images/update-01-10-2021/resources/about-nine-1-1.png";
@@ -150,18 +150,23 @@ export const aboutEleven = {
 
 export const aboutTen = {
   image: image12,
-  tagline: "Why Choose Us",
-  title: "The Largest Business Experts",
-  text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  tagline: "",
+  title: "Maintenance Programs",
+  text: "Just sit back, relax and let us take care of your pool . We offer a number of packages to keep your pool running properly throughout the season so find the one that works for you. Whether it is weekly, biweekly or even monthly service, we are here to make owning a pool as stress free as possible. Give us a call today and we will be happy to go over what service plan would work best for you.",
   boxes: [
     {
       id: 1,
-      title: "Customer Experience",
+      title: "Professional pool  cleaning with our equipment",
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Dolor sit amet, adipsicing elit.",
     },
     {
       id: 2,
-      title: "Customer Experience",
+      title: "Skim debris off pool surface",
+      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Dolor sit amet, adipsicing elit.",
+    },
+    {
+      id: 3,
+      title: "Clean out skimmers and pump basket",
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Dolor sit amet, adipsicing elit.",
     },
   ],
