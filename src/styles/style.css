@@ -9940,7 +9940,7 @@ img.lazy-image.loaded {
 .work-tabs .tab-buttons .tab-btn {
   position: relative;
   float: left;
-  width: 33.333%;
+  width: 50%;
   line-height: 40px;
   font-size: 30px;
   font-weight: 400;
