@@ -127,19 +127,19 @@ const navItems = [
     name: "Spa",
     href: "/portfolio",
     subNavItems: [
-      { id: 1, name: "Services", href: "/portfolio" },
-      { id: 2, name: "Covers", href: "/portfolio-single" },
+      { id: 1, name: "Services", href: "/spa/services" },
+      { id: 2, name: "Covers", href: "/spa/covers" },
     ],
   },
   {
     id: 6,
     name: "Construction",
-    href: "/shop",
+    href: "/construction",
   },
   {
     id: 7,
     name: "Gallery",
-    href: "/blog-grid",
+    href: "/gallery",
   },
 ];
 
