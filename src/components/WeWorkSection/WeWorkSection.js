@@ -13,12 +13,6 @@ const WeWorkSection = () => {
   return (
     <section className="we-work-section">
       <div className="auto-container">
-        {/* <div className="sec-title centered">
-          <h2>
-            {url.pathname === "/pool/opening" ? title : title2}
-            <span className="dot">.</span>
-          </h2>
-        </div> */}
         <div className="work-tabs tabs-box">
           <ul className="tab-btns tab-buttons clearfix">
             {url.pathname === "/pool/opening"
