@@ -20,7 +20,7 @@ const GalleryItem = ({ item = {} }) => {
           />
         </figure>
         <a className="lightbox-image overlay-box"></a>
-        <div className="cap-box">
+        {/* <div className="cap-box">
           <div className="cap-inner">
             <div className="cat">
               <span>{tagline}</span>
@@ -31,7 +31,7 @@ const GalleryItem = ({ item = {} }) => {
               </h5>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Col>
   );
