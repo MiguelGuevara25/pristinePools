@@ -1,5 +1,4 @@
-import React from "react";
-import { Col } from "react-bootstrap";
+import { Col, Image } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
 const SingleServiceOne = ({ service = {} }) => {
@@ -16,7 +15,10 @@ const SingleServiceOne = ({ service = {} }) => {
       <div className="inner-box">
         <div className="bottom-curve"></div>
         <div className="icon-box">
-          <span className={icon}></span>
+          <span>
+          {/* <span className={icon}> */}
+            <Image width={64} src="Calentador.svg" style={{fill: "white"}} />
+          </span>
         </div>
         <h6>
           <a href={href}>
