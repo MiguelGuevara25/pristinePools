@@ -15,13 +15,13 @@ const ContactSection = ({ className = "", map = false, form = false }) => {
   return (
     <section ref={ref} className={`contact-section ${className}`} id="contact">
       <div className="auto-container">
-        <div className="sec-title centered">
+        {/* <div className="sec-title centered">
           <h2>
             {title} <span className="dot">.</span>
           </h2>
-        </div>
+        </div> */}
 
-        <div className="upper-info">
+        {/* <div className="upper-info">
           <Row className="clearfix">
             {contacts.map(({ id, name, address, email, phone }) => (
               <Col
@@ -49,7 +49,7 @@ const ContactSection = ({ className = "", map = false, form = false }) => {
               </Col>
             ))}
           </Row>
-        </div>
+        </div> */}
         {map && <MapBox />}
         {form && <FormBox inputs={inputs} />}
       </div>

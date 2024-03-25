@@ -11,12 +11,11 @@ import React from "react";
 const Contact = () => {
   return (
     <Layout pageTitle="Contact">
-      <Style />
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
       <PageBanner title="Contact" />
-      <ContactSection map form />
+      <ContactSection form />
       <MainFooter />
     </Layout>
   );

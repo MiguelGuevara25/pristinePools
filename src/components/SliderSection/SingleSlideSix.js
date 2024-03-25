@@ -24,9 +24,9 @@ const SingleSlideSix = ({ slide = {} }) => {
           <h2 className="slider-six__title">
             <TextSplit text={`Providing Top Quality \n Products & Services`} />
           </h2>
-          <a href="#" className="slider-six__btn thm-btn__six">
+          {/* <a href="#" className="slider-six__btn thm-btn__six">
             Discover More
-          </a>
+          </a> */}
         </div>
       </div>
     </SwiperSlide>

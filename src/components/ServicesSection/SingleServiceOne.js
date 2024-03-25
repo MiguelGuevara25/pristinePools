@@ -16,8 +16,8 @@ const SingleServiceOne = ({ service = {} }) => {
         <div className="bottom-curve"></div>
         <div className="icon-box">
           <span>
-          {/* <span className={icon}> */}
-            <Image width={64} src="Calentador.svg" style={{fill: "white"}} />
+            {/* <span className={icon}> */}
+            <Image width={64} src={icon} style={{ fill: "white" }} />
           </span>
         </div>
         <h6>

@@ -100,6 +100,11 @@ const navItems = [
     name: "Gallery",
     href: "/gallery",
   },
+  {
+    id: 8,
+    name: "Contact",
+    href: "/contact",
+  },
 ];
 
 export const socials = [
