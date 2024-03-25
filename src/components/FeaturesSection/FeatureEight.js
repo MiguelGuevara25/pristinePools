@@ -32,7 +32,7 @@ const FeatureEight = () => {
                 </h2>
               </div>
               <p className="feature-eight__text">{text}</p>
-              <div className="progress-box">
+              {/* <div className="progress-box">
                 <div className="bar-title">{barTitle}</div>
                 <VisibilitySensor
                   offset={{ top: 10 }}
@@ -57,7 +57,7 @@ const FeatureEight = () => {
                     </div>
                   </div>
                 </VisibilitySensor>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>

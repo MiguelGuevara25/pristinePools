@@ -8,13 +8,13 @@ import FooterFour from "@/components/MainFooter/FooterFour";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import SponsorsSectionTwo from "@/components/SponsorsSection/SponsorsSectionTwo";
 
-const PageLiners = () => {
+const PageConstruction = () => {
   return (
-    <Layout pageTitle="Liners">
+    <Layout pageTitle="Construction">
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Liners" page="About" />
+      <PageBanner title="Construction" />
       <FeaturedSection className="featured-section__about-two" />
       <SponsorsSectionTwo />
       <ContactInfos />
@@ -23,4 +23,4 @@ const PageLiners = () => {
   );
 };
 
-export default PageLiners;
+export default PageConstruction;

@@ -2,6 +2,11 @@ import image from "@/images/clients/2.png";
 import image3 from "@/images/update-01-10-2021/sponsor/sponsor-1-1.png";
 import image4 from "@/images/update-01-10-2021/sponsor/sponsor-2-1.png";
 import image2 from "@/images/update-1-12-2020/resources/client-1.png";
+import imageMerlin from "@/images/clients/merlinLogo.png";
+import imageVynall from "@/images/clients/vynallLogo.png";
+import imageLoopLoc from "@/images/clients/4.png";
+import imageTara from "@/images/clients/taraLogo.png";
+import imageDover from "@/images/clients/doverLogo.png";
 
 const sponsors = [
   "1.png",
@@ -32,7 +37,7 @@ export default sponsors;
 
 export const sponsorsSectionTwo = {
   title: "Some of the clients we have worked with",
-  images: [image, image, image, image, image],
+  images: [imageMerlin, imageVynall, imageLoopLoc, imageTara, imageDover],
 };
 
 export const sponsorsSectionThree = [

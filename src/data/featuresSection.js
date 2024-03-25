@@ -1,7 +1,7 @@
 import bg from "@/images/background/image-3.jpg";
 import image from "@/images/resource/featured-image-13.jpg";
 import image2 from "@/images/update-26-02-2021/resources/photoMaintenance.png";
-import image3 from "@/images/update-26-02-2021/resources/feature-3-1.jpg";
+import image3 from "@/images/update-26-02-2021/resources/photoHeaters.png";
 
 const featuresSection = {
   bg,
@@ -94,8 +94,8 @@ export const featureSeven = {
 
 export const featureEight = {
   image: image3,
-  title: "We’re here to help your businesses growth",
-  text: "There are many variations of pass of lorem ips but the majority have suffered alteration in some form. Injected humour not randomised words which.",
+  title: "Pool Heaters",
+  text: "Pristine Pool & Spa carries a full line of heating systems to accommodate any size swimming pool. We offer only the best  from top manufactures in the industry. A heater is a great addition to any pool. It allows you to extend your swimming season to get the most out of your season. If you have any questions about the systems we offer just give us a call. We are happy to go over your options and determine the best solution for you and your pool.",
   barTitle: "Digital marketing",
   percent: 70,
 };
