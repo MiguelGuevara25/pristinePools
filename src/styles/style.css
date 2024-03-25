@@ -619,7 +619,7 @@ img {
   position: relative;
   display: inline-block;
   max-width: 100%;
-  max-height: 40px;
+  max-height: 60px;
   z-index: 1;
 }
 
@@ -837,7 +837,7 @@ img {
   left: 0;
   bottom: 7px;
   width: 100%;
-  border-bottom: 2px solid #005098;
+  border-bottom: 2px solid #0098D8;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transition: all 500ms ease;
@@ -1962,7 +1962,7 @@ img {
   line-height: 40px;
   cursor: pointer;
   margin-left: 0px;
-  color: var(--thm-base);
+  color: white;
   margin: 40px 0px 0px;
   display: none;
 }

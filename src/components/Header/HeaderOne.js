@@ -107,7 +107,7 @@ const HeaderOne = ({
                 <span className="txt">Menu</span>
               </div>
 
-              <nav className="main-menu navbar-expand-md navbar-light">
+              <nav className="main-menu navbar-expand-md navbar-light" style={{paddingTop: "10px"}}>
                 <div
                   className={
                     autoContainer
@@ -130,7 +130,7 @@ const HeaderOne = ({
             </div>
 
             {links && (
-              <div className="other-links clearfix">
+              <div className="other-links clearfix" style={{paddingTop: "10px"}}>
                 <div className="cart-btn">
                   <Link href="/cart">
                     <a className="theme-btn cart-toggler">
