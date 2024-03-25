@@ -38,3 +38,68 @@ export const processOne = [
     text: "The Colorvision Bubbler is a combination of the ColorVision Niche and Pentair GloBrite LED light to create vivid fountain-like water movement. It is the perfect way to showcase and enhance pool features like sun shelves, steps, beach entries and poolscape elements like ponds and fountains. Its low voltage and minimal water flow requirements make them and ideal energy-efficient addition to pools, fountains, ponds and more. It is fully compatible with the IntelliBrite 5G line of LED pool lights, optional IntelliBrite Controller and the Easy Touch or IntelliTouch Automation Systems. Custom program and control light shows using an indoor control panel, wireless remote and the Screen Logic Interface using your smartphone, computer or mobile digital device.",
   },
 ];
+
+export const processTwo = [
+  {
+    id: 1,
+    image: "grow-1-1.png",
+    title: "",
+    text: "This slide will make a big splash with the little one's that enjoy your pool! The Cyclone incorporates many of the same great features of our TurboTwister, but in smaller proportions at just 4 feet tall. Loaded with safety features like molded handrails and an enclosed ladder, this slide fully complies with the US Consumer Product Safety Commission's Safety Standard for Swimming Pool Slides (16 CFR 1207)",
+    lists: [
+      "Height: 4'-1\" to top of handrails",
+      "Weight limit: 175 lbs",
+      "Required deck space: 6'-8\" x 5'-6\"",
+      "Available in right curve",
+    ],
+  },
+  {
+    id: 2,
+    image: "grow-1-1.png",
+    title: "",
+    text: "The TurboTwister gives you waterpark thrills in your own backyard! Whether it's the rushing water or thrilling dips and curves that you love, the TurboTwister is packed with tons of great features for the entire family. With sturdy molded-in handrails and an enclosed ladder, we've made safety a top priority.",
+    lists: [
+      "Height: 8'-7\" to top of handrails",
+      "Weight limit: 275 lbs",
+      "Required deck space: 13'-1\" x 5'11\"",
+      "Available in right and left curves",
+    ],
+  },
+  {
+    id: 3,
+    image: "grow-1-1.png",
+    title: "",
+    text: "This full-sized addition to our rotomolded slide line (TurboTwister and Cyclone) stands 7’4” tall to the top of the handrails, and is available in sandstone and gray granite. New molded-in handgrips provide maximum safety for smaller users and our unique GrandRapids water delivery system offers lots of rushing water for a fun ride.",
+    lists: [
+      "Height: 7'-4\" to top of handrails",
+      "Weight limit: 275 lbs",
+      "Required deck space: 11'-7\" x 4'",
+      "Available in right and left curves",
+    ],
+  },
+  {
+    id: 4,
+    image: "grow-1-1.png",
+    title: "",
+    text: "The AquaBlast is a great intermediate-sized slide for kids that may have outgrown smaller slides. The compact features and low-profile design of this slide make it ideal for pools with limited deck space. The high-volume GrandRapids water delivery system offers lots of rushing water for fast sliding fun. An enclosed ladder, non-slip treads and sturdy handrails are just a few of the safety features incorporated into this fully US Consumer Product Safety Commission compliant slide.",
+    lists: [
+      "Height: 6'-0\" to top of handrails",
+      "Weight limit: 250 lbs",
+      "Required deck space: 8'-10\" x 5'-7\"",
+      "Available in right and left curves",
+    ],
+  },
+
+  {
+    id: 5,
+    image: "grow-1-1.png",
+    title: "",
+    text: "Our most popular slide, the Rogue GrandRapids is a great value! An economical choice, it is still packed with lots of great features, like our GrandRapids water delivery system. The Rogue GrandRapids was the first slide to feature the GrandRapids water system with lots of rushing water for fast sliding fun. You can count on the high-quality, heavy-duty materials to provide years of hassle-free enjoyment.",
+    lists: [
+      "Height: 7'11\" to top of handrails",
+      "Weight limit: 250 lbs",
+      "Required deck space: 9'-6\" x 7'-8\"",
+      "Available in right and left curves",
+      "For residential use only",
+    ],
+  },
+];

@@ -3634,7 +3634,7 @@ img.lazy-image.loaded {
   line-height: 2.125em;
   font-weight: 400;
   color: var(--thm-text);
-  padding: 30px 0px 0px;
+  padding: 0px 0px 0px;
 }
 
 /* section title two */
