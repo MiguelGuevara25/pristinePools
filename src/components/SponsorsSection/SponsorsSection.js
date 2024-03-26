@@ -64,26 +64,34 @@ const SponsorsSection = ({ className = "" }) => {
               options={{ ...settings, container: `.my-slider-15` }}
               ref={listRef}
             >
-              {sponsors.map((image, index) => (
-                <div
-                  ref={listRef}
-                  key={index}
-                  className="slide-item text-center"
-                >
-                  <figure className="image-box">
-                    <a href="#">
-                      <Image
-                        src={
-                          require(`@/images/clients/${
-                            className.includes("dark") ? "dark-1.png" : image
-                          }`).default.src
-                        }
-                        alt=""
-                      />
-                    </a>
-                  </figure>
-                </div>
-              ))}
+              {sponsors.map((image, index) => {
+                return (
+                  <div
+                    ref={listRef}
+                    key={index}
+                    className="slide-item text-center"
+                  >
+                    <figure className="image-box">
+                      <a
+                        href={image.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src={
+                            require(`@/images/clients/${
+                              className.includes("dark")
+                                ? "dark-1.png"
+                                : image.src
+                            }`).default.src
+                          }
+                          alt=""
+                        />
+                      </a>
+                    </figure>
+                  </div>
+                );
+              })}
             </TinySlider>
           </div>
         </div>
