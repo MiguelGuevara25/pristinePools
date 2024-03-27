@@ -1,12 +1,12 @@
 import demoBg from "@/images/background/footer-bg-2.jpg";
-import logo from "@/images/footer-logo.png";
+import logo from "@/images/logo1.png";
 import logo3 from "@/images/logo-3.png";
 import logo6 from "@/images/update-01-10-2021/logo-6-light.png";
 import logo7 from "@/images/update-01-10-2021/logo-7-light.png";
 import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
 import logo5 from "@/images/update-09-06-2021/logo-5-light.png";
 
-export const footer = { year: new Date().getFullYear(), author: "Linoor" };
+export const footer = { year: new Date().getFullYear(), author: "Pristine Pool & Spa" };
 
 export const mainFooterDemo = {
   ...footer,
@@ -30,7 +30,7 @@ export const mainFooter = {
   about2: "The new corporate agency theme",
   about3:
     "We’ve grown our business on a set of \n three building blocks. Enjoy the \n people you work.",
-  text: "Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.",
+  text: "Social Networks:",
   address: "66 Broklyn Street, New York \n United States of America",
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
@@ -47,68 +47,68 @@ export const mainFooter = {
       id: 1,
       href: "#",
       icon: "fab fa-facebook-square",
-    },
-    {
-      id: 2,
-      href: "#",
-      icon: "fab fa-twitter",
-    },
-    {
-      id: 3,
-      href: "#",
-      icon: "fab fa-instagram",
-    },
-    {
-      id: 4,
-      href: "#",
-      icon: "fab fa-pinterest-p",
-    },
+    }
   ],
   links: [
     {
       id: 1,
-      href: "/about",
-      title: "About",
+      href: "/pool/opening",
+      title: "Pool Opening",
     },
     {
       id: 2,
-      href: "/team",
-      title: "Meet Our Team",
+      href: "/pool/closing",
+      title: "Pool Closing",
     },
     {
       id: 3,
-      href: "/portfolio",
-      title: "Our Portfolio",
+      href: "/pool/maintenance",
+      title: "Pool Maintenance",
     },
     {
       id: 4,
-      href: "/blog",
-      title: "Latest News",
+      href: "/pool/upgrade",
+      title: "Pool Upgrade",
     },
     {
       id: 5,
-      href: "/contact",
-      title: "Contact",
+      href: "/pool/liners",
+      title: "Pool Liners",
     },
     {
       id: 6,
-      href: "/faqs",
-      title: "Support",
+      href: "/pool/heaters",
+      title: "Pool Heaters",
     },
     {
       id: 7,
-      href: "/faqs",
-      title: "Privacy Policy",
+      href: "/pool/pool-slides",
+      title: "Pool Slides",
     },
     {
       id: 8,
-      href: "/faqs",
-      title: "Terms of Use",
+      href: "/spa/services",
+      title: "Spa Services",
     },
     {
       id: 9,
-      href: "/faqs",
-      title: "Help",
+      href: "/spa/covers",
+      title: "Spa Covers",
+    },
+    {
+      id: 10,
+      href: "/construction",
+      title: "Construction",
+    },
+    {
+      id: 11,
+      href: "/gallery",
+      title: "Gallery",
+    },
+    {
+      id: 11,
+      href: "/contact",
+      title: "Contact",
     },
   ],
   ...footer,

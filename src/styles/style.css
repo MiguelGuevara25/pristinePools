@@ -605,7 +605,7 @@ img {
 .main-header .header-upper .logo-box {
   position: relative;
   float: left;
-  padding: 40px 0px;
+  padding: 20px 0px;
   margin-right: 50px;
   z-index: 7;
 }
@@ -619,7 +619,7 @@ img {
   position: relative;
   display: inline-block;
   max-width: 100%;
-  max-height: 60px;
+  max-height: 70px;
   z-index: 1;
 }
 
@@ -655,6 +655,7 @@ img {
   top: 0;
   width: 44px;
   height: 42px;
+  filter: grayscale(100%);
   background: url(../assets/images/icons/chat-icon.png) left center no-repeat;
 }
 
@@ -3804,12 +3805,13 @@ img.lazy-image.loaded {
 .service-block .inner-box:hover .count,
 .service-block .inner-box:hover h6,
 .service-block .inner-box:hover h6 a {
-  color: var(--thm-black);
+  color: white;
+  opacity: 0.7;
 }
 
-.service-block .inner-box h6 a:hover {
+/* .service-block .inner-box h6 a:hover {
   text-decoration: underline;
-}
+} */
 
 /* service three block */
 .service-block-three {
@@ -6649,8 +6651,9 @@ img.lazy-image.loaded {
 .main-footer {
   position: relative;
   color: #999b9f;
-  background: var(--thm-black) url(../assets/images/background/footer-bg.png)
-    center top no-repeat;
+  background: var(--thm-black)
+  /* url(../assets/images/background/footer-bg.png)
+    center top no-repeat; */
 }
 
 .main-footer .widgets-section {
@@ -6697,7 +6700,7 @@ img.lazy-image.loaded {
 }
 
 .main-footer .logo-widget .logo img {
-  height: 34px;
+  height: 100px;
 }
 
 .main-footer .logo-widget .text {
