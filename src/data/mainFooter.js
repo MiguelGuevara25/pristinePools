@@ -106,7 +106,7 @@ export const mainFooter = {
       title: "Gallery",
     },
     {
-      id: 11,
+      id: 12,
       href: "/contact",
       title: "Contact",
     },

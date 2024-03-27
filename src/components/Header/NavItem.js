@@ -54,6 +54,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
   const { menuStatus, toggleMenu, currentActive } = useRootContext();
 
   const { name, href, subNavItems = [] } = navItem;
+  console.log(navItem);
   const subHref = subNavItems.map((item) => item.href);
   const current = !onePage
     ? pathname === href || subHref.includes(pathname)
