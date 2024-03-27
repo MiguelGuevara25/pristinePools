@@ -838,7 +838,7 @@ img {
   left: 0;
   bottom: 7px;
   width: 100%;
-  border-bottom: 2px solid #0098D8;
+  border-bottom: 2px solid #0098d8;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transition: all 500ms ease;
@@ -3778,6 +3778,7 @@ img.lazy-image.loaded {
 
 .service-block .inner-box:hover .icon-box {
   color: var(--thm-black);
+  filter: invert(1);
 }
 
 .service-block .inner-box h6 {
@@ -6651,7 +6652,7 @@ img.lazy-image.loaded {
 .main-footer {
   position: relative;
   color: #999b9f;
-  background: var(--thm-black)
+  background: var(--thm-black);
   /* url(../assets/images/background/footer-bg.png)
     center top no-repeat; */
 }

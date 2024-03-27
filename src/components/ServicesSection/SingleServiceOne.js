@@ -15,10 +15,7 @@ const SingleServiceOne = ({ service = {} }) => {
       <div className="inner-box">
         <div className="bottom-curve"></div>
         <div className="icon-box">
-          <span>
-            {/* <span className={icon}> */}
-            <Image width={64} src={icon} style={{ fill: "white" }} />
-          </span>
+          <Image width={64} src={icon} />
         </div>
         <h6>
           <a href={href}>
