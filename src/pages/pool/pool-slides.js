@@ -12,7 +12,7 @@ const PagePoolSlides = () => {
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Pool Slides" page="About" />
+      <PageBanner title="Pool Slides" />
       <ProcessOne />
       <MainFooter />
     </Layout>

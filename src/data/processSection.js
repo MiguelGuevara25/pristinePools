@@ -103,3 +103,18 @@ export const processTwo = [
     ],
   },
 ];
+
+export const processThree = [
+  {
+    id: 1,
+    image: "grow-1-1.png",
+    title: "Spa Maintenance",
+    text: "",
+    list: [
+      "Vacuum spa",
+      "Clean Filter",
+      "Condition Spa Pillows",
+      "Available in right curve",
+    ],
+  },
+];
