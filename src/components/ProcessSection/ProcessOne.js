@@ -31,6 +31,29 @@ const ProcessOne = () => {
             </Row>
           </div>
         );
+
+      case "/spa/services":
+        return (
+          <div className="sec-title">
+            <Row className="clearfix">
+              <Col xl={6} lg={12} md={12} sm={12} className="column">
+                <h2>
+                  <TextSplit text="Spa Services" />
+                  <span className="dot">.</span>
+                </h2>
+              </Col>
+              <Col xl={6} lg={12} md={12} sm={12} className="column">
+                <div className="lower-text">
+                  At Pristine Pool & Spa we offer a full line of quality
+                  products and services to keep your spa running throughout the
+                  year. With great package deals to choose from and the best
+                  products available, we will take the worry out of owning and
+                  maintaining your spa
+                </div>
+              </Col>
+            </Row>
+          </div>
+        );
     }
   };
 
@@ -123,10 +146,10 @@ const ProcessOne = () => {
               <div className="process-one__content">
                 <div className="sec-title">
                   <h2>
-                    {title} <span className="dot">.</span>
+                    {title}
                   </h2>
                 </div>
-                <p className="process-one__summery">{text}</p>
+                <p className="process-one__summery" style={{fontSize: "25px"}}>{text}</p>
                 <ul className="list-unstyled process-one__list">
                   {lists?.map((text, i) => (
                     <li key={i}>
