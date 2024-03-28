@@ -18,9 +18,9 @@ const SingleServiceOne = ({ service = {} }) => {
           <Image width={64} src={icon} />
         </div>
         <h6>
-          <a href={href}>
+          {/* <a href={href}> */}
             <TextSplit text={title} />
-          </a>
+          {/* </a> */}
         </h6>
       </div>
     </Col>
