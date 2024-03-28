@@ -37,7 +37,24 @@ export default sponsors;
 
 export const sponsorsSectionTwo = {
   title: "Some of the clients we have worked with",
-  images: [imageMerlin, imageVynall, imageLoopLoc, imageTara, imageDover],
+  images: [
+    {
+      logo: imageMerlin,
+      link: "https://merlinindustries.com/",
+    },
+    {
+      logo: imageLoopLoc,
+      link: "https://www.looploc.com",
+    },
+    {
+      logo: imageTara,
+      link: "https://www.tarapools.com/consumer-products/pool-liners/pool-liner-patterns",
+    },
+    {
+      logo: imageDover,
+      link: "https://www.doverpoolproducts.com/",
+    },
+  ],
 };
 
 export const sponsorsSectionThree = [

@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
+import { useRouter } from "next/router";
 
 const {
   title,
@@ -51,6 +52,62 @@ const HeaderOne = ({
       Logo = logo4;
     }
   }
+  const navItems2 = [
+    {
+      id: 1,
+      name: "Home",
+      href: "/",
+    },
+    {
+      id: 2,
+      name: "Services",
+      href: "/",
+    },
+    {
+      id: 3,
+      name: "Products",
+      href: "/",
+    },
+    {
+      id: 4,
+      name: "Pool",
+      href: "",
+      subNavItems: [
+        { id: 1, name: "Opening", href: "/pool/opening" },
+        { id: 2, name: "Closing", href: "/pool/closing" },
+        { id: 3, name: "Maintenance", href: "/pool/maintenance" },
+        { id: 4, name: "Up Grade", href: "/pool/upgrade" },
+        { id: 5, name: "Liners", href: "/pool/liners" },
+        { id: 6, name: "Heaters", href: "/pool/heaters" },
+        { id: 7, name: "Pool Slides", href: "/pool/pool-slides" },
+      ],
+    },
+    {
+      id: 5,
+      name: "Spa",
+      href: "",
+      subNavItems: [
+        { id: 1, name: "Services", href: "/spa/services" },
+        { id: 2, name: "Covers", href: "/spa/covers" },
+      ],
+    },
+    {
+      id: 6,
+      name: "Construction",
+      href: "/construction",
+    },
+    {
+      id: 7,
+      name: "Gallery",
+      href: "/gallery",
+    },
+    {
+      id: 8,
+      name: "Contact",
+      href: "/contact",
+    },
+  ];
+  const { pathname } = useRouter();
 
   return (
     <header
@@ -80,6 +137,7 @@ const HeaderOne = ({
           </div>
         </div>
       )}
+
       <div className="header-upper">
         <div className={autoContainer ? "inner-container clearfix" : ""}>
           <div
@@ -88,7 +146,7 @@ const HeaderOne = ({
             }
           >
             <div className="logo-box">
-              <div className="logo" >
+              <div className="logo">
                 <Link href="/">
                   <a title={title}>
                     <Image
@@ -116,15 +174,27 @@ const HeaderOne = ({
                   }
                   id={autoContainer ? "" : "navbarSupportedContent"}
                 >
-                  <ul className="navigation clearfix">
-                    {newNavItems.map((navItem) => (
-                      <NavItem
-                        navItem={navItem}
-                        key={navItem.id}
-                        onePage={onePage}
-                      />
-                    ))}
-                  </ul>
+                  {pathname !== "/" ? (
+                    <ul className="navigation clearfix">
+                      {navItems2.map((navItem) => (
+                        <NavItem
+                          navItem={navItem}
+                          key={navItem.id}
+                          onePage={onePage}
+                        />
+                      ))}
+                    </ul>
+                  ) : (
+                    <ul className="navigation clearfix">
+                      {newNavItems.map((navItem) => (
+                        <NavItem
+                          navItem={navItem}
+                          key={navItem.id}
+                          onePage={onePage}
+                        />
+                      ))}
+                    </ul>
+                  )}
                 </div>
               </nav>
             </div>
@@ -133,20 +203,18 @@ const HeaderOne = ({
               <div className="other-links clearfix">
                 <div className="cart-btn">
                   <Link href="/cart">
-                    <a className="theme-btn cart-toggler">
-                      {/* <span className="flaticon-shopping-cart"></span> */}
-                    </a>
+                    <a className="theme-btn cart-toggler"></a>
                   </Link>
                 </div>
+
                 <div className="search-btn">
                   <button
                     onClick={toggleSearch}
                     type="button"
                     className="theme-btn search-toggler"
-                  >
-                    {/* <span className="flaticon-loupe"></span> */}
-                  </button>
+                  ></button>
                 </div>
+
                 <div className="link-box">
                   <div className="call-us">
                     <a
