@@ -12,7 +12,7 @@ const PageOpening = () => {
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Opening" page="About" />
+      <PageBanner title="Opening" />
       <WeWorkSection />
       <MainFooter />
     </Layout>
