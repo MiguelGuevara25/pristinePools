@@ -1,26 +1,31 @@
 export const sliderSix = [
   {
     id: 1,
-    bg: "photoPool1.jpg",
+    bg: "pristinePS.png",
   },
 
   {
     id: 2,
-    bg: "photoPool5.webp",
+    bg: "photoPool1.jpg",
   },
 
   {
     id: 3,
-    bg: "photoPool2.jpg",
+    bg: "photoPool5.webp",
   },
 
   {
     id: 4,
-    bg: "photoPool4.jpg",
+    bg: "photoPool2.jpg",
   },
 
   {
     id: 5,
+    bg: "photoPool4.jpg",
+  },
+
+  {
+    id: 6,
     bg: "photoPool3.jpg",
     text: "Welcome",
     title: "meet the corporate \n business agency",
