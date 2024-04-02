@@ -23,6 +23,7 @@ export const weWorkSection = {
         "System Evaluation",
         "Install Skimmers & Returns",
         "Install Diving Board & Ladder",
+        "Includes startup chemicals",
       ],
     },
     {
@@ -36,7 +37,7 @@ export const weWorkSection = {
         "Assemble & Start Filter System",
         "System Evaluation",
         "Install Skimmers & Returns",
-        "Install Diving Board & Ladder",
+        "Install Ladder",
       ],
     },
   ],

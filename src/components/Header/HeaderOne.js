@@ -57,16 +57,19 @@ const HeaderOne = ({
       id: 1,
       name: "Home",
       href: "/",
+      target: false,
     },
     {
       id: 2,
       name: "Services",
       href: "/",
+      target: false,
     },
     {
       id: 3,
       name: "Products",
       href: "/",
+      target: false,
     },
     {
       id: 4,
@@ -81,6 +84,7 @@ const HeaderOne = ({
         { id: 6, name: "Heaters", href: "/pool/heaters" },
         { id: 7, name: "Pool Slides", href: "/pool/pool-slides" },
       ],
+      target: false,
     },
     {
       id: 5,
@@ -90,21 +94,31 @@ const HeaderOne = ({
         { id: 1, name: "Services", href: "/spa/services" },
         { id: 2, name: "Covers", href: "/spa/covers" },
       ],
+      target: false,
     },
     {
       id: 6,
       name: "Construction",
       href: "/construction",
+      target: false,
     },
     {
       id: 7,
       name: "Gallery",
       href: "/gallery",
+      target: false,
     },
     {
       id: 8,
       name: "Contact",
       href: "/contact",
+      target: false,
+    },
+    {
+      id: 9,
+      name: "Pay Now",
+      href: "https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f97136376547c&mfid=1712095836753_f97136376547c#/checkout/openButton",
+      target: true,
     },
   ];
   const { pathname } = useRouter();

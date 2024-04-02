@@ -6801,7 +6801,7 @@ img.lazy-image.loaded {
 }
 
 .main-footer .info-widget ul li.address {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .main-footer .info-widget ul li .icon {
@@ -10009,10 +10009,10 @@ img.lazy-image.loaded {
 .work-tabs .tabs-content .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   border-radius: 7px;
 }
 
@@ -11003,10 +11003,10 @@ img.lazy-image.loaded {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
 }
 
 .page-banner .shape-1 {

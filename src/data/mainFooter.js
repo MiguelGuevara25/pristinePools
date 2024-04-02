@@ -31,13 +31,13 @@ export const mainFooter = {
   about3:
     "We’ve grown our business on a set of \n three building blocks. Enjoy the \n people you work.",
   text: "Social Networks:",
-  address: "66 Broklyn Street, New York \n United States of America",
+  address: "148 Edgewood Ave",
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
-  phone: "666 888 000",
+  phone: "+1 (516) 770-3555",
   phone2: "+92 3333 222 000",
-  email: "needhelp@linoor.com",
+  email: "pristinepoolandspas@gmail.com",
   textBottom:
     "Sign up for our latest news & articles. We won’t give you spam mails.",
   subscribeText:
@@ -45,7 +45,7 @@ export const mainFooter = {
   socials: [
     {
       id: 1,
-      href: "#",
+      href: "https://www.facebook.com/pristinepoolandspa",
       icon: "fab fa-facebook-square",
     }
   ],

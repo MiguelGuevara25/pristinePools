@@ -14,6 +14,7 @@ const home = {
   id: 1,
   name: "Home",
   href: "/",
+  target: false,
 };
 
 const navItemsTwo = [
@@ -61,11 +62,13 @@ const navItems = [
     id: 2,
     name: "Services",
     href: "#services",
+    target: false,
   },
   {
     id: 3,
     name: "Products",
     href: "#products",
+    target: false,
   },
   {
     id: 4,
@@ -80,6 +83,7 @@ const navItems = [
       { id: 6, name: "Heaters", href: "/pool/heaters" },
       { id: 7, name: "Pool Slides", href: "/pool/pool-slides" },
     ],
+    target: false,
   },
   {
     id: 5,
@@ -89,21 +93,31 @@ const navItems = [
       { id: 1, name: "Services", href: "/spa/services" },
       { id: 2, name: "Covers", href: "/spa/covers" },
     ],
+    target: false,
   },
   {
     id: 6,
     name: "Construction",
     href: "/construction",
+    target: false,
   },
   {
     id: 7,
     name: "Gallery",
     href: "/gallery",
+    target: false,
   },
   {
     id: 8,
     name: "Contact",
     href: "/contact",
+    target: false,
+  },
+  {
+    id: 9,
+    name: "Pay Now",
+    href: "https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f97136376547c&mfid=1712095836753_f97136376547c#/checkout/openButton",
+    target: true,
   },
 ];
 
@@ -111,22 +125,7 @@ export const socials = [
   {
     id: 1,
     icon: "fab fa-facebook-square",
-    href: "#",
-  },
-  {
-    id: 2,
-    icon: "fab fa-twitter",
-    href: "#",
-  },
-  {
-    id: 3,
-    icon: "fab fa-instagram",
-    href: "#",
-  },
-  {
-    id: 4,
-    icon: "fab fa-pinterest-p",
-    href: "#",
+    href: "https://www.facebook.com/pristinepoolandspa",
   },
 ];
 
@@ -147,12 +146,12 @@ const headerData = {
   navItems,
   navItemsTwo,
   address: "Suite 20 Golden Street USA",
-  phone: "631 206 0704",
+  phone: "+1 (516) 770-3555",
   phone2: "+ 92 666 888 0000",
-  email: "needhelp@linoor.com",
+  email: "pristinepoolandspas@gmail.com",
   icon,
   socials,
-  text: "Linoor is a premium Template for Digital Agencies, Start Ups, Small Business and a wide range of other agencies.",
+  text: "",
 };
 
 export default headerData;

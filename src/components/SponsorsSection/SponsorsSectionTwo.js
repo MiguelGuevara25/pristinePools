@@ -2,7 +2,7 @@ import { sponsorsSectionTwo } from "@/data/sponsorsSection";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { title, images } = sponsorsSectionTwo;
+const { images } = sponsorsSectionTwo;
 
 const SponsorsSectionTwo = () => {
   return (
@@ -12,7 +12,7 @@ const SponsorsSectionTwo = () => {
           <Col xl={5} lg={12} md={12} className="title-col">
             <div className="sec-title animated fadeInLeft">
               <h2>
-                {title}
+                explore the many liners we offer
                 <span className="dot">.</span>
               </h2>
             </div>

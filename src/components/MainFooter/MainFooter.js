@@ -37,7 +37,7 @@ const MainFooter = ({ normalPadding = true }) => {
                   <ul className="social-links clearfix">
                     {socials.map(({ id, icon, href }) => (
                       <li key={id}>
-                        <a href={href}>
+                        <a href={href} target="_blank">
                           <span className={icon}></span>
                         </a>
                       </li>
@@ -82,10 +82,12 @@ const MainFooter = ({ normalPadding = true }) => {
                       <span className="icon flaticon-pin-1"></span>{" "}
                       <TextSplit text={address} />
                     </li>
+
                     <li>
                       <span className="icon flaticon-call"></span>
                       <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
                     </li>
+
                     <li>
                       <span className="icon flaticon-email-2"></span>
                       <a href={`mailto:${email}`}>{email}</a>

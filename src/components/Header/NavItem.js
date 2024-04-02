@@ -54,6 +54,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
   const { menuStatus, toggleMenu, currentActive } = useRootContext();
 
   const { name, href, subNavItems = [] } = navItem;
+  console.log();
   const subHref = subNavItems.map((item) => item.href);
   const current = !onePage
     ? pathname === href || subHref.includes(pathname)
@@ -71,6 +72,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
         <a
           onClick={() => mobile && href.includes("#") && toggleMenu()}
           href={href}
+          target={navItem.target && "_blank"}
         >
           {name}{" "}
           {subNavItems.length > 0 && (
