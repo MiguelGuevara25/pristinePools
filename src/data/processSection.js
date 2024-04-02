@@ -66,7 +66,7 @@ export const processTwo = [
   },
   {
     id: 3,
-    image: "grow-1-1.png",
+    image: "slides3.png",
     title: "",
     text: "This full-sized addition to our rotomolded slide line (TurboTwister and Cyclone) stands 7’4” tall to the top of the handrails, and is available in sandstone and gray granite. New molded-in handgrips provide maximum safety for smaller users and our unique GrandRapids water delivery system offers lots of rushing water for a fun ride.",
     lists: [
@@ -78,7 +78,7 @@ export const processTwo = [
   },
   {
     id: 4,
-    image: "grow-1-1.png",
+    image: "slides4.png",
     title: "",
     text: "The AquaBlast is a great intermediate-sized slide for kids that may have outgrown smaller slides. The compact features and low-profile design of this slide make it ideal for pools with limited deck space. The high-volume GrandRapids water delivery system offers lots of rushing water for fast sliding fun. An enclosed ladder, non-slip treads and sturdy handrails are just a few of the safety features incorporated into this fully US Consumer Product Safety Commission compliant slide.",
     lists: [
@@ -91,7 +91,7 @@ export const processTwo = [
 
   {
     id: 5,
-    image: "grow-1-1.png",
+    image: "slides5.png",
     title: "",
     text: "Our most popular slide, the Rogue GrandRapids is a great value! An economical choice, it is still packed with lots of great features, like our GrandRapids water delivery system. The Rogue GrandRapids was the first slide to feature the GrandRapids water system with lots of rushing water for fast sliding fun. You can count on the high-quality, heavy-duty materials to provide years of hassle-free enjoyment.",
     lists: [
