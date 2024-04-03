@@ -581,7 +581,7 @@ img {
 }
 
 .fixed-header .header-upper {
-  background: #005098;
+  background: white;
   -ms-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
   -o-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
   -webkit-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
@@ -642,7 +642,11 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding-left: 60px;
-  color: #ffffff;
+  color: white;
+}
+
+.fixed-header .header-upper .other-links .link-box .link {
+  color: #222429;
 }
 
 .header-style-two.fixed-header .other-links .link-box .link {
@@ -772,11 +776,15 @@ img {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: white;
   padding: 12px 0px;
   opacity: 1;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+}
+
+.fixed-header .header-upper .main-menu .navigation > li > a {
+  color: #222429;
 }
 
 .main-menu .navigation li > a {
@@ -814,7 +822,11 @@ img {
 
 .main-menu .navigation > li:hover > a,
 .main-menu .navigation > li.current > a {
-  color: #ffffff;
+  color: white;
+}
+
+.fixed-header .header-upper .main-menu .navigation > li.current > a {
+  color: #222429;
 }
 
 .header-style-two .main-menu .navigation > li > a,
@@ -3696,14 +3708,14 @@ img.lazy-image.loaded {
 }
 
 .services-section .row .service-block .inner-box:before {
-  content: "0" counter(slides-num) "";
+  content: "" counter(slides-num) "";
   position: absolute;
   left: 45px;
   top: 50px;
   font-size: 50px;
   line-height: 1em;
   color: #ffffff;
-  opacity: 0.07;
+  opacity: 0.5;
   font-family: var(--thm-font);
   font-weight: 300;
 }
@@ -6701,7 +6713,7 @@ img.lazy-image.loaded {
 }
 
 .main-footer .logo-widget .logo img {
-  height: 100px;
+  height: 150px;
 }
 
 .main-footer .logo-widget .text {
