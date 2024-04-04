@@ -1,9 +1,8 @@
-import Link from "next/link";
 import React from "react";
 import { Col, Image } from "react-bootstrap";
 
 const GalleryItem = ({ item = {} }) => {
-  const { image, title, tagline, filter } = item;
+  const { image, filter } = item;
 
   return (
     <Col
@@ -20,18 +19,6 @@ const GalleryItem = ({ item = {} }) => {
           />
         </figure>
         <a className="lightbox-image overlay-box"></a>
-        {/* <div className="cap-box">
-          <div className="cap-inner">
-            <div className="cat">
-              <span>{tagline}</span>
-            </div>
-            <div className="title">
-              <h5>
-                <Link href="/portfolio-single">{title}</Link>
-              </h5>
-            </div>
-          </div>
-        </div> */}
       </div>
     </Col>
   );

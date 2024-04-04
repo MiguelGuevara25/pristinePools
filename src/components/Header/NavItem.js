@@ -72,7 +72,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
         <a
           onClick={() => mobile && href.includes("#") && toggleMenu()}
           href={href}
-          target={navItem.target && "_blank"}
+          target={navItem.target ? "_blank" : undefined}
         >
           {name}{" "}
           {subNavItems.length > 0 && (
