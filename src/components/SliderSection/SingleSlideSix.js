@@ -19,14 +19,12 @@ const SingleSlideSix = ({ slide = {} }) => {
       <div className="auto-container">
         <div className="slider-six__content">
           <p className="slider-six__text">
-            <span>Welcome</span>
+            <span>{text}</span>
           </p>
+          
           <h2 className="slider-six__title">
-            <TextSplit text={`Providing Top Quality \n Products & Services`} />
+            <TextSplit text={title} />
           </h2>
-          {/* <a href="#" className="slider-six__btn thm-btn__six">
-            Discover More
-          </a> */}
         </div>
       </div>
     </SwiperSlide>

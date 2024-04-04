@@ -1,34 +1,44 @@
 export const sliderSix = [
   {
     id: 1,
-    bg: "pristinePS.png",
+    bg: "pristinePS1.png",
+    text: "Welcome",
+    title: "Providing Top Quality \n Products & Services",
   },
 
   {
     id: 2,
     bg: "photoPool1.jpg",
+    text: "Welcome",
+    title: "Providing Top Quality \n Products & Services",
   },
 
   {
     id: 3,
     bg: "photoPool5.webp",
+    text: "Welcome",
+    title: "Providing Top Quality \n Products & Services",
   },
 
   {
     id: 4,
     bg: "photoPool2.jpg",
+    text: "Welcome",
+    title: "Providing Top Quality \n Products & Services",
   },
 
   {
     id: 5,
     bg: "photoPool4.jpg",
+    text: "Welcome",
+    title: "Providing Top Quality \n Products & Services",
   },
 
   {
     id: 6,
     bg: "photoPool3.jpg",
     text: "Welcome",
-    title: "meet the corporate \n business agency",
+    title: "Providing Top Quality \n Products & Services",
   },
 ];
 

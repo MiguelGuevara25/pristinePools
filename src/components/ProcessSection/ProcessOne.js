@@ -93,17 +93,19 @@ const ProcessOne = () => {
         ));
 
       case "/pool/upgrade":
-        return processOne.map(({ id, image, title, text, lists }) => (
+        return processOne.map(({ id, image, title, text, lists, href }) => (
           <Row key={id}>
             <Col md={12} lg={6} className="process-one__image__column">
               <div className="process-one__image animated fadeInLeft">
-                <Image
-                  src={
-                    require(`@/images/update-01-10-2021/resources/${image}`)
-                      .default.src
-                  }
-                  alt=""
-                />
+                <a href={href} target="_blank">
+                  <Image
+                    src={
+                      require(`@/images/update-01-10-2021/resources/${image}`)
+                        .default.src
+                    }
+                    alt=""
+                  />
+                </a>
               </div>
             </Col>
             <Col md={12} lg={6}>
@@ -145,11 +147,14 @@ const ProcessOne = () => {
             <Col md={12} lg={6}>
               <div className="process-one__content">
                 <div className="sec-title">
-                  <h2>
-                    {title}
-                  </h2>
+                  <h2>{title}</h2>
                 </div>
-                <p className="process-one__summery" style={{fontSize: "25px"}}>{text}</p>
+                <p
+                  className="process-one__summery"
+                  style={{ fontSize: "25px" }}
+                >
+                  {text}
+                </p>
                 <ul className="list-unstyled process-one__list">
                   {lists?.map((text, i) => (
                     <li key={i}>
