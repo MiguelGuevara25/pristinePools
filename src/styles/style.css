@@ -3707,7 +3707,7 @@ img.lazy-image.loaded {
   counter-increment: slides-num;
 }
 
-.services-section .row .service-block .inner-box:before {
+/* .services-section .row .service-block .inner-box:before {
   content: "" counter(slides-num) "";
   position: absolute;
   left: 45px;
@@ -3718,7 +3718,7 @@ img.lazy-image.loaded {
   opacity: 0.5;
   font-family: var(--thm-font);
   font-weight: 300;
-}
+} */
 
 .service-block {
   position: relative;
