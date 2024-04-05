@@ -3,7 +3,7 @@ const newsSection = {
   newsData: [
     {
       id: 1,
-      image: "news-1.jpg",
+      image: "bobe1.png",
       date: "20 Mar",
       admin: "Admin",
       comments: 2,
@@ -12,7 +12,7 @@ const newsSection = {
     },
     {
       id: 2,
-      image: "news-2.jpg",
+      image: "bobe2.png",
       date: "20 Mar",
       admin: "Admin",
       comments: 2,
@@ -21,7 +21,7 @@ const newsSection = {
     },
     {
       id: 3,
-      image: "news-3.jpg",
+      image: "bobe3.png",
       date: "20 Mar",
       admin: "Admin",
       comments: 2,

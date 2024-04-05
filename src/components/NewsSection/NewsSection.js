@@ -1,23 +1,28 @@
 import newsSection from "@/data/newsSection";
 import useActive from "@/hooks/useActive";
-import Link from "next/link";
-import React from "react";
-import { Row } from "react-bootstrap";
+import { Image, Row } from "react-bootstrap";
 import SingleNews from "./SingleNews";
+import logoBobe from "../../../public/logoBobe.png";
 
-const { title, newsData } = newsSection;
+const { newsData } = newsSection;
 
-const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
+const NewsSection = ({ className = "", showTitle = true }) => {
   const ref = useActive("#blog");
 
   return (
-    <section ref={ref} className={`news-section ${className}`} id="blog">
+    <section
+      ref={ref}
+      className={`news-section ${className}`}
+      style={{ paddingTop: "0px" }}
+      id="blog"
+    >
       <div className="auto-container">
         {showTitle && (
           <div className="sec-title centered">
             <h2>
-              {title}
-              <span className="dot">.</span>
+              <a href="https://www.grandeffects.com/en" target="_blank">
+                <Image src={logoBobe.src} alt="icon" width={250} height={250} />
+              </a>
             </h2>
           </div>
         )}
@@ -27,16 +32,6 @@ const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
             <SingleNews key={news.id} news={news} />
           ))}
         </Row>
-        {isMore && (
-          <div className="more-box">
-            <Link href="/blog">
-              <a className="theme-btn btn-style-one">
-                <i className="btn-curve"></i>
-                <span className="btn-title">Load more posts</span>
-              </a>
-            </Link>
-          </div>
-        )}
       </div>
     </section>
   );
