@@ -1,6 +1,6 @@
 import { Col, Image } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
-import photoPrueba from "@/images/logo1.png"
+import photoPrueba from "@/images/logo1.png";
 
 const SingleServiceOne = ({ service = {} }) => {
   const { icon, href, title } = service;
@@ -15,11 +15,9 @@ const SingleServiceOne = ({ service = {} }) => {
     >
       <div className="inner-box">
         <div className="bottom-curve"></div>
-        <Image width={64} src={photoPrueba.src} />
-        {/* <div className="icon-box">
-          <Image width={64} src={icon} />
-        </div> */}
-        <h6>
+        <Image width={"100%"} src={icon} style={{height: "130px"}} />
+
+        <h6 style={{marginTop: "50px"}}>
           <TextSplit text={title} />
         </h6>
       </div>
