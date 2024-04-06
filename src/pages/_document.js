@@ -36,11 +36,16 @@ class MyDocument extends Document {
             type="image/x-icon"
           />
           <link rel="icon" href="favicon.ico" />
+
           <meta
             name="description"
             content="Company specialized in the construction of swimming pools and works for spas, with 20 years of experience."
           />
+
+          <meta property="type" content="website" />
+          <meta property="title" content="Pristine Pool &amp; Spa" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="robots" content="index, follow" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link

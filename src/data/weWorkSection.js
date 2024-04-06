@@ -67,6 +67,7 @@ export const weWorkSection2 = {
         "Dismantling of Filter System",
         "Diving Board & Ladder removed",
         "Winterize Plumbing",
+        "Includes winterizing chemicals",
       ],
     },
     {
@@ -80,6 +81,7 @@ export const weWorkSection2 = {
         "Dismantling of Filter System",
         "Steps or Ladder removed",
         "Winterize Plumbing",
+        "Includes winterizing chemicals",
       ],
     },
   ],

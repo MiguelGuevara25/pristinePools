@@ -1,12 +1,15 @@
-import image from "@/images/clients/2.png";
 import image3 from "@/images/update-01-10-2021/sponsor/sponsor-1-1.png";
 import image4 from "@/images/update-01-10-2021/sponsor/sponsor-2-1.png";
 import image2 from "@/images/update-1-12-2020/resources/client-1.png";
 import imageMerlin from "@/images/clients/merlinLogo.png";
-import imageVynall from "@/images/clients/vynallLogo.png";
 import imageLoopLoc from "@/images/clients/4.png";
 import imageTara from "@/images/clients/taraLogo.png";
 import imageDover from "@/images/clients/doverLogo.png";
+import imageAlps from "@/images/clients/alpsLogo.png";
+import imageCardinalSystem from "@/images/clients/cardinalSystemLogo.png";
+import imageLatham from "@/images/clients/lathamLogo.png";
+import imageQuaker from "@/images/clients/quakerLogo.png";
+import imageSrSmith from "@/images/clients/3.png";
 
 const sponsors = [
   { src: "1.png", link: "https://hayward.com" },
@@ -18,7 +21,6 @@ const sponsors = [
   { src: "7.png", link: "https://aqua-bots.com" },
   { src: "8.png", link: "https://www.polarispool.com/en" },
   { src: "9.png", link: "https://www.jandy.com/en" },
-  // { src: "10.png", link: "https://www.ejemplo.com/enlace10" },
   { src: "11.png", link: "https://www.ejemplo.com/enlace11" },
   { src: "1.png", link: "https://hayward.com" },
   { src: "2.png", link: "https://www.pentair.com" },
@@ -29,14 +31,13 @@ const sponsors = [
   { src: "7.png", link: "https://aqua-bots.com" },
   { src: "8.png", link: "https://www.polarispool.com/en" },
   { src: "9.png", link: "https://www.jandy.com/en" },
-  // { src: "10.png", link: "https://www.ejemplo.com/enlace21" },
   { src: "11.png", link: "https://www.ejemplo.com/enlace22" },
 ];
 
 export default sponsors;
 
 export const sponsorsSectionTwo = {
-  title: "Some of the clients we have worked with",
+  title: "explore the many liners we offer",
   images: [
     {
       logo: imageMerlin,
@@ -53,6 +54,32 @@ export const sponsorsSectionTwo = {
     {
       logo: imageDover,
       link: "https://www.doverpoolproducts.com/",
+    },
+  ],
+};
+
+export const sponsorsSectionTwoConstruction = {
+  title2: "Explore the different products that we offer",
+  images2: [
+    {
+      logo: imageAlps,
+      link: "http://www.alpsmfg.com",
+    },
+    {
+      logo: imageCardinalSystem,
+      link: "https://cardinalsystemsinc.com",
+    },
+    {
+      logo: imageLatham,
+      link: "http://www.lathampool.com",
+    },
+    {
+      logo: imageQuaker,
+      link: "https://www.doverpoolproducts.com/",
+    },
+    {
+      logo: imageSrSmith,
+      link: "https://www.srsmith.com/en-us/",
     },
   ],
 };

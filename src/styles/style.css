@@ -663,6 +663,10 @@ img {
   background: url(../assets/images/icons/chat-icon.png) left center no-repeat;
 }
 
+.main-header.fixed-header .other-links .link-box .link .icon {
+  filter: invert(0.8);
+}
+
 .main-header .other-links .link-box .sub-text {
   position: relative;
   display: block;
