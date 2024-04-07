@@ -78,18 +78,18 @@ export const contactInfoTwo = [
   {
     id: 1,
     icon: "fa fa-map-marker-alt",
-    text: "66 Broklyn Street, USA",
+    text: "148 Edgewood Ave",
   },
   {
     id: 2,
     icon: "fa fa-envelope",
-    text: "needhelp@linoor.com",
+    text: "pristinepoolandspas@gmail.com",
     email: true,
   },
   {
     id: 3,
     icon: "fa fa-phone",
-    text: "+92 666 888 0000",
+    text: "631 206 0704",
     phone: true,
   },
 ];

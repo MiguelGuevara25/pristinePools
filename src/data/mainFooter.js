@@ -35,7 +35,7 @@ export const mainFooter = {
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
-  phone: "+1 (516) 770-3555",
+  phone: "631 206 0704",
   phone2: "+92 3333 222 000",
   email: "pristinepoolandspas@gmail.com",
   textBottom:
