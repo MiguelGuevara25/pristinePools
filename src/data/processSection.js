@@ -114,7 +114,7 @@ export const processThree = [
     id: 1,
     image: "grow-1-1.png",
     title: "Spa Maintenance",
-    text: "Weekly/BiWeekly/Monthly $35",
+    text: "Weekly/BiWeekly/Monthly $65",
     lists: [
       "Vacuum spa",
       "Clean Filter",
@@ -126,7 +126,7 @@ export const processThree = [
     id: 2,
     image: "grow-1-1.png",
     title: "",
-    text: "Spa Winterization $215",
+    text: "Spa Winterization $295",
     lists: [
       "Drain Spa",
       "Clean & Degrease Filter",
@@ -141,7 +141,7 @@ export const processThree = [
     id: 3,
     image: "grow-1-1.png",
     title: "",
-    text: "Spa Summerization $215",
+    text: "Spa Summerization $295",
     lists: [
       "Remove Winter Cover",
       "Rinse Spa Shell",
@@ -156,7 +156,7 @@ export const processThree = [
     id: 4,
     image: "grow-1-1.png",
     title: "Spa Detailing Packages",
-    text: "Silver Package $195",
+    text: "Silver Package $275",
     lists: [
       "Drain & Refill Spa",
       "Clean & Degrease Filter",
@@ -170,7 +170,7 @@ export const processThree = [
     id: 5,
     image: "grow-1-1.png",
     title: "",
-    text: "Gold Package $245",
+    text: "Gold Package $325",
     lists: [
       "Remove & Clean Jet Inserts",
       "Lubricate Union O-Rings & Heater Gaskets",
@@ -180,7 +180,7 @@ export const processThree = [
     id: 6,
     image: "grow-1-1.png",
     title: "",
-    text: "Platinum Package $295",
+    text: "Platinum Package $375",
     lists: [
       "Flush spa Lines with our Eco Friendly Spa Solution",
       "Clean & Wax Spa Shell",
@@ -191,7 +191,7 @@ export const processThree = [
     id: 7,
     image: "grow-1-1.png",
     title: "",
-    text: "Spa Shell Detailing $190",
+    text: "Spa Shell Detailing $265",
     lists: [
       "Drain & Refill Spa",
       "Clean & Wax Spa Shell",
@@ -202,7 +202,7 @@ export const processThree = [
     id: 8,
     image: "grow-1-1.png",
     title: "",
-    text: "Spa Cover & Pillow Detailing $95",
+    text: "Spa Cover & Pillow Detailing $195",
     lists: [
       "Remove Spa Cover & Pillows",
       "Clean & Condition with 303 Vinyl Protectant",

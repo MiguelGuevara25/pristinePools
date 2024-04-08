@@ -84,12 +84,12 @@ export const contactInfoTwo = [
     id: 2,
     icon: "fa fa-envelope",
     text: "pristinepoolandspas@gmail.com",
-    email: true,
+    email: "pristinepoolandspas@gmail.com",
   },
   {
     id: 3,
     icon: "fa fa-phone",
     text: "631 206 0704",
-    phone: true,
+    phone: "631 206 0704",
   },
 ];

@@ -341,6 +341,29 @@ export const gallerySectionOne = {
   items: items2,
 };
 
+export const galleryHeaters = [
+  {
+    id: 1,
+    image: "photoHeaterGallery.png",
+    link: "https://hayward.com/"
+  },
+  {
+    id: 2,
+    image: "photoHeaterGallery1.png",
+    link: "https://www.pentair.com/"
+  },
+  {
+    id: 3,
+    image: "photoHeaterGallery2.png",
+    link: "https://www.jandy.com/en"
+  },
+  {
+    id: 4,
+    image: "photoHeaterGallery3.png",
+    link: "https://www.raypak.com/"
+  }
+]
+
 export const gallerySectionThree = {
   tagline: "What We did",
   title: "Latest Projects",

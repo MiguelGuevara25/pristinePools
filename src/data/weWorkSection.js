@@ -38,6 +38,7 @@ export const weWorkSection = {
         "System Evaluation",
         "Install Skimmers & Returns",
         "Install Ladder",
+        "Includes startup chemicals",
       ],
     },
   ],

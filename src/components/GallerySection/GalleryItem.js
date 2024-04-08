@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Image } from "react-bootstrap";
 
 const GalleryItem = ({ item = {} }) => {

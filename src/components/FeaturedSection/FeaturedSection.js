@@ -1,6 +1,7 @@
 import featuredSection from "@/data/featuredSection";
 import { Col, Image, Row } from "react-bootstrap";
 import { useRouter } from "next/router";
+import imageContruction from "@/images/resource/photoContruction.png";
 
 const { imageLiner, title, text, features } = featuredSection;
 
@@ -14,7 +15,11 @@ const FeaturedSection = ({ className = "" }) => {
           <Col lg={6} md={12} sm={12} className="left-col">
             <div className="inner animated fadeInLeft">
               <div className="image-box">
-                <Image src={imageLiner.src} alt="" />
+                {pathname === "/construction" ? (
+                  <Image src={imageContruction.src} alt="" />
+                ) : (
+                  <Image src={imageLiner.src} alt="" />
+                )}
               </div>
             </div>
           </Col>
