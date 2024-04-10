@@ -154,7 +154,7 @@ export const processThree = [
   },
   {
     id: 4,
-    image: "grow-1-1.png",
+    image: "spaServices1.png",
     title: "Spa Detailing Packages",
     text: "Silver Package $275",
     lists: [
@@ -168,7 +168,7 @@ export const processThree = [
   },
   {
     id: 5,
-    image: "grow-1-1.png",
+    image: "spaServices2.png",
     title: "",
     text: "Gold Package $325",
     lists: [

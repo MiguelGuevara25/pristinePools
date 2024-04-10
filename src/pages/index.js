@@ -18,8 +18,8 @@ const Home = () => {
       <SliderSix />
       <AboutSeven />
       <ServicesSectionOne />
-      {/* <SponsorsSection /> */}
-      {/* <CallToSection /> */}
+      <SponsorsSection />
+      <CallToSection />
       <MainFooter />
     </Layout>
   );

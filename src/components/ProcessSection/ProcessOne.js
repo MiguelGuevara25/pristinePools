@@ -133,7 +133,7 @@ const ProcessOne = () => {
         return processThree.map(({ id, image, title, text, lists }) => (
           <Row key={id}>
             <Col md={12} lg={6} className="process-one__image__column">
-              {/* <div className="process-one__image animated fadeInLeft">
+              <div className="process-one__image animated fadeInLeft">
                 <Image
                   src={
                     require(`@/images/update-01-10-2021/resources/${image}`)
@@ -141,7 +141,7 @@ const ProcessOne = () => {
                   }
                   alt=""
                 />
-              </div> */}
+              </div>
             </Col>
 
             <Col md={12} lg={6}>
