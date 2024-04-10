@@ -1,28 +1,24 @@
-import AboutSeven from "@/components/AboutSection/AboutSeven";
+import PageBanner from "@/components/BannerSection/PageBanner";
 import CallToSection from "@/components/CallToSection/CallToSection";
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/MainFooter/MainFooter";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
-import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne";
-import SliderSix from "@/components/SliderSection/SliderSix";
 import SponsorsSection from "@/components/SponsorsSection/SponsorsSection";
 
-const Home = () => {
+const PageProducts = () => {
   return (
-    <Layout pageTitle="Home">
+    <Layout pageTitle="Products">
       <HeaderOne />
       <MobileMenu />
       <SearchPopup />
-      <SliderSix />
-      <AboutSeven />
-      <ServicesSectionOne />
-      {/* <SponsorsSection /> */}
-      {/* <CallToSection /> */}
+      <PageBanner title="Products" />
+      <SponsorsSection />
+      <CallToSection />
       <MainFooter />
     </Layout>
   );
 };
 
-export default Home;
+export default PageProducts;
