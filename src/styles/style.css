@@ -23411,7 +23411,7 @@ img.lazy-image.loaded {
 .partner-one__card {
   padding: 20px;
   margin-bottom: 30px;
-  border: 1px solid #e9ebee;
+  /* border: 1px solid #e9ebee; */
   border-radius: 8px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -23826,6 +23826,15 @@ img.lazy-image.loaded {
 }
 
 .process-one__image {
+  counter-increment: processCount;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: var(--thm-black);
+}
+
+.process-one__image__pool {
   counter-increment: processCount;
   position: relative;
   display: inline-block;

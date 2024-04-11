@@ -47,7 +47,7 @@ export const serviceSectionThree = [
   },
   {
     id: 2,
-    icon: "/services/heaters.jpg",
+    icon: "/services/heaters.webp",
     href: "",
     title: "Heater\nSystems",
   },
@@ -71,7 +71,7 @@ export const serviceSectionThree = [
   },
   {
     id: 6,
-    icon: "/services/leakDetection.png",
+    icon: "/services/leakDetection.avif",
     href: "",
     title: "Leak\nDetection",
   },

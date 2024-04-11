@@ -4,6 +4,7 @@ import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/MainFooter/MainFooter";
+import PartnerOne from "@/components/PartnerSection/PartnerOne";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne";
 import SliderSix from "@/components/SliderSection/SliderSix";
@@ -18,7 +19,8 @@ const Home = () => {
       <SliderSix />
       <AboutSeven />
       <ServicesSectionOne />
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
+      <PartnerOne />
       <CallToSection />
       <MainFooter />
     </Layout>

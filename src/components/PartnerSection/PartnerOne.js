@@ -6,6 +6,9 @@ const PartnerOne = () => {
   return (
     <section className="partner-one">
       <div className="auto-container">
+        <div className="sec-title">
+          <h2>Our Products</h2>
+        </div>
         <Row>
           {partnerOne.map(({ id, image, title, text }) => (
             <Col key={id} md={6} lg={4}>
@@ -18,13 +21,6 @@ const PartnerOne = () => {
                     }
                     alt=""
                   />
-                </div>
-                <div className="partner-one__content">
-                  <h3 className="partner-one__title">{title}</h3>
-                  <p className="partner-one__text">{text}</p>
-                  <a href="#" className="partner-one__link">
-                    Read More
-                  </a>
                 </div>
               </div>
             </Col>

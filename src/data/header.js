@@ -67,7 +67,7 @@ const navItems = [
   {
     id: 3,
     name: "Products",
-    href: "/products",
+    href: "#products",
     target: false,
   },
   {
