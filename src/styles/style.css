@@ -3732,7 +3732,7 @@ img.lazy-image.loaded {
 .service-block .inner-box {
   position: relative;
   display: block;
-  padding: 20px 40px;
+  padding: 20px 20px;
   background: #1c1e22;
   min-height: 100%;
   border-radius: 7px;

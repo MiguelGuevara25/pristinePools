@@ -21,7 +21,7 @@ const sponsors = [
   { src: "7.png", link: "https://aqua-bots.com" },
   { src: "8.png", link: "https://www.polarispool.com/en" },
   { src: "9.png", link: "https://www.jandy.com/en" },
-  { src: "11.png", link: "https://www.ejemplo.com/enlace11" },
+  // { src: "11.png", link: "https://www.ejemplo.com/enlace11" },
   { src: "1.png", link: "https://hayward.com" },
   { src: "2.png", link: "https://www.pentair.com" },
   { src: "3.png", link: "https://www.srsmith.com/en-us/" },
@@ -31,7 +31,7 @@ const sponsors = [
   { src: "7.png", link: "https://aqua-bots.com" },
   { src: "8.png", link: "https://www.polarispool.com/en" },
   { src: "9.png", link: "https://www.jandy.com/en" },
-  { src: "11.png", link: "https://www.ejemplo.com/enlace22" },
+  // { src: "11.png", link: "https://www.ejemplo.com/enlace22" },
 ];
 
 export default sponsors;

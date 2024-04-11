@@ -1,5 +1,4 @@
 import { partnerOne } from "@/data/partnerSection";
-import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
 const PartnerOne = () => {

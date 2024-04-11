@@ -47,7 +47,7 @@ export const serviceSectionThree = [
   },
   {
     id: 2,
-    icon: "/services/heaters.webp",
+    icon: "/services/heaters.jpg",
     href: "",
     title: "Heater\nSystems",
   },
