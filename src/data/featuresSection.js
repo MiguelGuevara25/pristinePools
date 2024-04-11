@@ -66,28 +66,99 @@ export const featureSix = {
 };
 
 export const featureSeven = {
-  title: "planning and strategy",
   features: [
     {
-      id: 1,
-      image: "strategy-1-1.jpg",
-      title: "Take a look around our business growth",
-      text: "Sed quia magni dolores eos qui ratione voluptatem sequi nesciunt eque porro.",
-      href: "/services",
-    },
-    {
       id: 2,
-      image: "strategy-1-2.jpg",
-      title: "Our Mission and unique vissions",
-      text: "Sed quia magni dolores eos qui ratione voluptatem sequi nesciunt eque porro.",
-      href: "/about",
+      title: "Weekly/BiWeekly/Monthly $35",
+      list: [
+        "Vacuum Spa",
+        "Clean Filter",
+        "Condition Spa Pillows",
+        "Test & Adjust Chemicals",
+      ],
     },
+
     {
       id: 3,
-      image: "strategy-1-3.jpg",
-      title: "Finance advice and a global solution",
-      text: "Sed quia magni dolores eos qui ratione voluptatem sequi nesciunt eque porro.",
-      href: "/services",
+      title: "Spa Winterization $215",
+      list: [
+        "Drain Spa",
+        "Clean & Degrease Filter",
+        "Disconnect all unions",
+        "Winterize Spa pumps & Lines",
+        "Rinse spa shell",
+        "Lubricate O-Rings & Heater Gaskets",
+        "Install Winter Cover",
+      ],
+    },
+
+    {
+      id: 1,
+      title: "Spa Summerization $215",
+      list: [
+        "Remove Winter Cover",
+        "Rinse Spa Shell",
+        "Refill Spa",
+        "Install Filter",
+        "Reinstall Pumps and Check Connections",
+        "Inspect Spa",
+        "Test & Adjust Chemicals",
+      ],
+    },
+  ],
+};
+
+export const featureSeven1 = {
+  features1: [
+    {
+      id: 2,
+      title: "Gold Package $245",
+      list: [
+        "Remove & Clean Jet Inserts",
+        "Lubricate Union O-Rings & Heater Gaskets",
+      ],
+    },
+
+    {
+      id: 3,
+      title: "Platinum Package $295",
+      list: [
+        "Flush Spa Lines with our Eco Friendly Spa Solution",
+        "Clean & Wax Spa Shell",
+        "Clean Spa Cabinet",
+      ],
+    },
+
+    {
+      id: 1,
+      title: "Silver Package $195",
+      list: [
+        "Drain & Refill Spa",
+        "Clean & Degrease Filter",
+        "Clean Spa Shell",
+        "Clean & Condition Spa Cover & Pillows",
+        "System Inspection",
+        "Test & Adjust Chemicals",
+      ],
+    },
+
+    {
+      id: 4,
+      title: "Spa Shell Detailing $190",
+      list: [
+        "Drain & Refill Spa",
+        "Clean & Wax Spa Shell",
+        "Test & Adjust Chemicals",
+      ],
+    },
+
+    {
+      id: 5,
+      title: "Spa Cover & Pillow Detailing $95",
+      list: [
+        "Remove Spa Cover & Pillows",
+        "Clean & Condition with 303 Vinyl Protectant",
+      ],
     },
   ],
 };

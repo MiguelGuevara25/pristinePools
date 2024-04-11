@@ -8991,13 +8991,13 @@ img.lazy-image.loaded {
   padding-top: 90px;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .feature-seven {
     padding-top: 120px;
   }
-}
+} */
 
-.feature-seven hr {
+/* .feature-seven hr {
   border-width: 1px;
   border-color: #e9ebee;
   margin: 0;
@@ -9005,7 +9005,7 @@ img.lazy-image.loaded {
   margin-right: auto;
   max-width: 1170px;
   margin-top: 60px;
-}
+} */
 
 @media (min-width: 992px) {
   .feature-seven hr {

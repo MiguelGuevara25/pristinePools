@@ -1,4 +1,5 @@
 import PageBanner from "@/components/BannerSection/PageBanner";
+import FeatureSeven from "@/components/FeaturesSection/FeatureSeven";
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
@@ -13,7 +14,8 @@ const PageSpaServices = () => {
       <MobileMenu />
       <SearchPopup />
       <PageBanner title="Services" />
-      <ProcessOne />
+      {/* <ProcessOne /> */}
+      <FeatureSeven />
       <MainFooter />
     </Layout>
   );
