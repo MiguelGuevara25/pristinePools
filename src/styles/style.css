@@ -605,7 +605,7 @@ img {
 .main-header .header-upper .logo-box {
   position: relative;
   float: left;
-  padding: 20px 0px;
+  padding: 27px 0px;
   margin-right: 50px;
   z-index: 7;
 }
@@ -619,7 +619,7 @@ img {
   position: relative;
   display: inline-block;
   max-width: 100%;
-  max-height: 70px;
+  max-height: 55px;
   z-index: 1;
 }
 
@@ -632,7 +632,7 @@ img {
 .main-header .other-links .link-box {
   position: relative;
   float: left;
-  padding: 34px 0px;
+  padding: 32px 0px;
 }
 
 .main-header .other-links .link-box .link {
@@ -3732,7 +3732,7 @@ img.lazy-image.loaded {
 .service-block .inner-box {
   position: relative;
   display: block;
-  padding: 50px 45px;
+  padding: 20px 40px;
   background: #1c1e22;
   min-height: 100%;
   border-radius: 7px;

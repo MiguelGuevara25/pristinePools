@@ -17,7 +17,7 @@ const SingleServiceOne = ({ service = {} }) => {
         <div className="bottom-curve"></div>
         <Image width={"100%"} src={icon} style={{height: "130px"}} />
 
-        <h6 style={{marginTop: "50px"}}>
+        <h6 style={{marginTop: "25px"}}>
           <TextSplit text={title} />
         </h6>
       </div>
