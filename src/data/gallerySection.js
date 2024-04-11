@@ -200,6 +200,62 @@ const items2 = [
     tagline: "Graphic",
     filter: ["all", "liner-replacement-18x36"],
   },
+  {
+    id: 7,
+    image: "1.png",
+    title: "Fimlor Experience",
+    tagline: "Graphic",
+    filter: ["all", "liner-replacement-18x36-l"],
+  },
+  {
+    id: 8,
+    image: "2.png",
+    title: "Fimlor Experience",
+    tagline: "Graphic",
+    filter: ["all", "liner-replacement-18x36-l"],
+  },
+  {
+    id: 9,
+    image: "3.png",
+    title: "Fimlor Experience",
+    tagline: "Graphic",
+    filter: ["all", "liner-replacement-18x36-l"],
+  },
+  {
+    id: 10,
+    image: "4.png",
+    title: "Fimlor Experience",
+    tagline: "Graphic",
+    filter: ["all", "liner-replacement-18x36-l"],
+  },
+  {
+    id: 11,
+    image: "5.png",
+    title: "Fimlor Experience",
+    tagline: "Graphic",
+    filter: ["all", "liner-replacement-18x36-l"],
+  },
+  {
+    id: 12,
+    image: "6.png",
+    title: "Fimlor Experience",
+    tagline: "Graphic",
+    filter: ["all", "liner-replacement-18x36-l"],
+  },
+  {
+    id: 13,
+    image: "7.png",
+    title: "Fimlor Experience",
+    tagline: "Graphic",
+    filter: ["all", "liner-replacement-18x36-l"],
+  },
+  {
+    id: 13,
+    image: "8.png",
+    title: "Fimlor Experience",
+    tagline: "Graphic",
+    filter: ["all", "liner-replacement-18x36-l"],
+  },
 ];
 
 const gallerySection = {
