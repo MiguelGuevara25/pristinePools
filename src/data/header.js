@@ -116,7 +116,7 @@ const navItems = [
   {
     id: 9,
     name: "Pay Now",
-    href: "https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f97136376547c&mfid=1712095836753_f97136376547c#/checkout/openButton",
+    href: "https://www.paypal.com/ncp/payment/CKYLQJRV7L8CS",
     target: true,
   },
 ];

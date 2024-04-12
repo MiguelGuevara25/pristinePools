@@ -19,9 +19,9 @@ const Home = () => {
       <SliderSix />
       <AboutSeven />
       <ServicesSectionOne />
-      {/* <SponsorsSection /> */}
-      <PartnerOne />
-      <CallToSection />
+      <SponsorsSection />
+      {/* <PartnerOne /> */}
+      <CallToSection className="my-5" />
       <MainFooter />
     </Layout>
   );

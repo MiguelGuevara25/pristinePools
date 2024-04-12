@@ -1,5 +1,5 @@
 import { servicesSectionOne } from "@/data/servicesSection";
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 import SingleServiceOne from "./SingleServiceOne";
@@ -9,6 +9,34 @@ const { title, text, services } = servicesSectionOne;
 
 const ServicesSectionOne = () => {
   const ref = useActive("#services");
+
+  useEffect(() => {
+    const handleScroll = (e) => {
+      e.preventDefault();
+
+      const targetId = "#services";
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        const offsetTop = targetElement.offsetTop - 50; // Ajuste para dejar espacio para el título
+
+        window.scroll({
+          top: offsetTop,
+          behavior: "smooth",
+        });
+      }
+    };
+
+    document.querySelectorAll('a[href="#services"]').forEach((anchor) => {
+      anchor.addEventListener("click", handleScroll);
+    });
+
+    return () => {
+      document.querySelectorAll('a[href="#services"]').forEach((anchor) => {
+        anchor.removeEventListener("click", handleScroll);
+      });
+    };
+  }, []);
 
   return (
     <section ref={ref} className="services-section" id="services">

@@ -1,7 +1,7 @@
 import sponsors from "@/data/sponsorsSection";
 import useActive from "@/hooks/useActive";
 import dynamic from "next/dynamic";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Image } from "react-bootstrap";
 
 const TinySlider = dynamic(() => import("@/components/TinySlider/TinySlider"), {
@@ -43,6 +43,34 @@ const settings = {
 const SponsorsSection = ({ className = "" }) => {
   const listRef = useRef(null);
   const ref = useActive("#products");
+
+  useEffect(() => {
+    const handleScroll = (e) => {
+      e.preventDefault();
+
+      const targetId = "#products";
+      const targetElement = document.querySelector(targetId);
+
+      if (targetElement) {
+        const offsetTop = targetElement.offsetTop - 100; // Ajuste para dejar espacio para el título
+
+        window.scroll({
+          top: offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    };
+
+    document.querySelectorAll('a[href="#products"]').forEach(anchor => {
+      anchor.addEventListener('click', handleScroll);
+    });
+
+    return () => {
+      document.querySelectorAll('a[href="#products"]').forEach(anchor => {
+        anchor.removeEventListener('click', handleScroll);
+      });
+    };
+  }, []);
 
   return (
     <section
