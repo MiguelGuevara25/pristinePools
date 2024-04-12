@@ -5,6 +5,7 @@ import bg4 from "@/images/background/bgUpgrade.png";
 import bg5 from "@/images/background/bgLiners.png";
 import bg6 from "@/images/background/bgHeaters.png";
 import bg7 from "@/images/background/bgPoolSlides.png";
+import bg8 from "@/images/background/bgSpaServices.png";
 import Link from "next/link";
 
 const PageBanner = ({ title = "" }) => {
@@ -63,6 +64,14 @@ const PageBanner = ({ title = "" }) => {
           <div
             className="image-layer"
             style={{ backgroundImage: `url(${bg7.src})` }}
+          ></div>
+        );
+
+      case "Services":
+        return (
+          <div
+            className="image-layer"
+            style={{ backgroundImage: `url(${bg8.src})` }}
           ></div>
         );
 

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 
 const CallToSection = ({ className = "", container = true }) => {
   return (
@@ -11,7 +10,7 @@ const CallToSection = ({ className = "", container = true }) => {
           <div className={container ? "" : "auto-container clearfix"}>
             <h2>
               What are you waiting{container ? <br /> : ""}
-              for contact us today.
+              for, contact us today.
             </h2>
             <div className="link-box">
               <Link href="/contact">

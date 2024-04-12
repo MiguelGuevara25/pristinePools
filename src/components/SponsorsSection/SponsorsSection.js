@@ -1,7 +1,7 @@
 import sponsors from "@/data/sponsorsSection";
 import useActive from "@/hooks/useActive";
 import dynamic from "next/dynamic";
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Image } from "react-bootstrap";
 
 const TinySlider = dynamic(() => import("@/components/TinySlider/TinySlider"), {

@@ -69,7 +69,7 @@ export const featureSeven = {
   features: [
     {
       id: 2,
-      title: "Weekly/BiWeekly/Monthly $35",
+      title: "Weekly/BiWeekly/Monthly $65",
       list: [
         "Vacuum Spa",
         "Clean Filter",
@@ -80,7 +80,7 @@ export const featureSeven = {
 
     {
       id: 3,
-      title: "Spa Winterization $215",
+      title: "Spa Winterization $295",
       list: [
         "Drain Spa",
         "Clean & Degrease Filter",
@@ -94,7 +94,7 @@ export const featureSeven = {
 
     {
       id: 1,
-      title: "Spa Summerization $215",
+      title: "Spa Summerization $295",
       list: [
         "Remove Winter Cover",
         "Rinse Spa Shell",
@@ -112,7 +112,7 @@ export const featureSeven1 = {
   features1: [
     {
       id: 1,
-      title: "Silver Package $195",
+      title: "Silver Package $275",
       list: [
         "Drain & Refill Spa",
         "Clean & Degrease Filter",
@@ -125,7 +125,7 @@ export const featureSeven1 = {
 
     {
       id: 2,
-      title: "Gold Package $245",
+      title: "Gold Package $325",
       list: [
         "Silver Package +",
         "Remove & Clean Jet Inserts",
@@ -135,7 +135,7 @@ export const featureSeven1 = {
 
     {
       id: 3,
-      title: "Platinum Package $295",
+      title: "Platinum Package $375",
       list: [
         "Gold Package +",
         "Flush Spa Lines with our Eco Friendly Spa Solution",
@@ -146,7 +146,7 @@ export const featureSeven1 = {
 
     {
       id: 4,
-      title: "Spa Shell Detailing $190",
+      title: "Spa Shell Detailing $265",
       list: [
         "Drain & Refill Spa",
         "Clean & Wax Spa Shell",
@@ -156,7 +156,7 @@ export const featureSeven1 = {
 
     {
       id: 5,
-      title: "Spa Cover & Pillow Detailing $95",
+      title: "Spa Cover & Pillow Detailing $195",
       list: [
         "Remove Spa Cover & Pillows",
         "Clean & Condition with 303 Vinyl Protectant",

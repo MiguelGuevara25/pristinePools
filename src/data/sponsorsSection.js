@@ -10,6 +10,10 @@ import imageCardinalSystem from "@/images/clients/cardinalSystemLogo.png";
 import imageLatham from "@/images/clients/lathamLogo.png";
 import imageQuaker from "@/images/clients/quakerLogo.png";
 import imageSrSmith from "@/images/clients/3.png";
+import imageHayward from "@/images/clients/1.png";
+import imagePentair from "@/images/clients/2.png";
+import imageJandy from "@/images/clients/9.png";
+import imageRaypack from "@/images/clients/6.png";
 
 const sponsors = [
   { src: "1.png", link: "https://hayward.com" },
@@ -18,7 +22,7 @@ const sponsors = [
   { src: "4.png", link: "https://www.looploc.com" },
   { src: "5.png", link: "https://www.premierrobotic.com" },
   { src: "6.png", link: "https://www.raypak.com" },
-  { src: "7.png", link: "https://aqua-bots.com" },
+  { src: "7.png", link: "https://naturalchemistry.com/" },
   { src: "8.png", link: "https://www.polarispool.com/en" },
   { src: "9.png", link: "https://www.jandy.com/en" },
   // { src: "11.png", link: "https://www.ejemplo.com/enlace11" },
@@ -28,7 +32,7 @@ const sponsors = [
   { src: "4.png", link: "https://www.looploc.com" },
   { src: "5.png", link: "https://www.premierrobotic.com" },
   { src: "6.png", link: "https://www.raypak.com" },
-  { src: "7.png", link: "https://aqua-bots.com" },
+  { src: "7.png", link: "https://naturalchemistry.com/" },
   { src: "8.png", link: "https://www.polarispool.com/en" },
   { src: "9.png", link: "https://www.jandy.com/en" },
   // { src: "11.png", link: "https://www.ejemplo.com/enlace22" },
@@ -80,6 +84,28 @@ export const sponsorsSectionTwoConstruction = {
     {
       logo: imageSrSmith,
       link: "https://www.srsmith.com/en-us/",
+    },
+  ],
+};
+
+export const sponsorsSectionTwoHeaters = {
+  title3: "Explore Your Heating",
+  images3: [
+    {
+      logo: imageHayward,
+      link: "https://hayward.com"
+    },
+    {
+      logo: imagePentair,
+      link: "https://www.pentair.com",
+    },
+    {
+      logo: imageJandy,
+      link: "https://www.jandy.com/en"
+    },
+    {
+      logo: imageRaypack,
+      link: "https://www.raypak.com"
     },
   ],
 };
