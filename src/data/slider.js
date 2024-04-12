@@ -1,7 +1,7 @@
 export const sliderSix = [
   {
     id: 1,
-    bg: "pristinePS1.png",
+    bg: "pristinePS2.png",
     text: "\n",
     title: "\n\n\n",
   },

@@ -111,25 +111,6 @@ export const featureSeven = {
 export const featureSeven1 = {
   features1: [
     {
-      id: 2,
-      title: "Gold Package $245",
-      list: [
-        "Remove & Clean Jet Inserts",
-        "Lubricate Union O-Rings & Heater Gaskets",
-      ],
-    },
-
-    {
-      id: 3,
-      title: "Platinum Package $295",
-      list: [
-        "Flush Spa Lines with our Eco Friendly Spa Solution",
-        "Clean & Wax Spa Shell",
-        "Clean Spa Cabinet",
-      ],
-    },
-
-    {
       id: 1,
       title: "Silver Package $195",
       list: [
@@ -139,6 +120,27 @@ export const featureSeven1 = {
         "Clean & Condition Spa Cover & Pillows",
         "System Inspection",
         "Test & Adjust Chemicals",
+      ],
+    },
+
+    {
+      id: 2,
+      title: "Gold Package $245",
+      list: [
+        "Silver Package +",
+        "Remove & Clean Jet Inserts",
+        "Lubricate Union O-Rings & Heater Gaskets",
+      ],
+    },
+
+    {
+      id: 3,
+      title: "Platinum Package $295",
+      list: [
+        "Gold Package +",
+        "Flush Spa Lines with our Eco Friendly Spa Solution",
+        "Clean & Wax Spa Shell",
+        "Clean Spa Cabinet",
       ],
     },
 
