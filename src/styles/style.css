@@ -619,11 +619,7 @@ img {
   position: relative;
   display: inline-block;
   max-width: 100%;
-<<<<<<< HEAD
   max-height: 70px;
-=======
-  max-height: 75px;
->>>>>>> a2c55f7e6fc8160df1aa06ff25c6e5b1c365d2e2
   z-index: 1;
 }
 
