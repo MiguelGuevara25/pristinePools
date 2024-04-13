@@ -96,7 +96,7 @@ const ProcessOne = () => {
         return processOne.map(({ id, image, title, text, lists, href }) => (
           <Row key={id}>
             <Col md={12} lg={6} className="process-one__image__column">
-              <div className="process-one__image animated fadeInLeft">
+              <div className="process-one__image__pool animated fadeInLeft">
                 <a href={href} target="_blank">
                   <Image
                     src={

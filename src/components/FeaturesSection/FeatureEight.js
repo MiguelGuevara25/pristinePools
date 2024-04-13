@@ -16,7 +16,7 @@ const FeatureEight = () => {
   };
 
   return (
-    <section className="feature-eight">
+    <section className="feature-eight" style={{paddingBottom: "50px"}}>
       <div className="auto-container">
         <Row>
           <Col md={12} lg={5}>

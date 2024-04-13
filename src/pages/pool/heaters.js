@@ -7,6 +7,7 @@ import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/MainFooter/MainFooter";
 import NewGalleryHeaters from "@/components/NewGalleryHeaters";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
+import SponsorsSectionTwo from "@/components/SponsorsSection/SponsorsSectionTwo";
 
 const PageHeaters = () => {
   return (
@@ -16,7 +17,8 @@ const PageHeaters = () => {
       <SearchPopup />
       <PageBanner title="Heaters" page="About" />
       <FeatureEight />
-      <NewGalleryHeaters similar />
+      {/* <NewGalleryHeaters similar /> */}
+      <SponsorsSectionTwo />
       <MainFooter />
     </Layout>
   );
