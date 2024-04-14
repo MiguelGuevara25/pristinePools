@@ -1984,6 +1984,10 @@ img {
   display: none;
 }
 
+.main-header.fixed-header .nav-outer .mobile-nav-toggler {
+  color: #005098;
+}
+
 .mobile-nav-toggler .txt {
   position: relative;
   display: inline-block;
